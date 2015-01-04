@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Blog Name</title>
+  <subtitle>Blog subtitle</subtitle>
+  <id>http://blog.url.com/blog</id>
+  <link href="http://blog.url.com/blog"/>
+  <link href="http://blog.url.com/feed.xml" rel="self"/>
+  <updated>2014-12-17T01:44:00+09:00</updated>
+  <author>
+    <name>Blog Author</name>
+  </author>
+  <entry>
+    <title>sample9</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2014/12/17/9.html"/>
+    <id>http://blog.url.com/blog/2014/12/17/9.html</id>
+    <published>2014-12-17T01:44:00+09:00</published>
+    <updated>2014-12-24T01:31:09+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;a href="https://www.flickr.com/photos/stuckincustoms/2049233526" title="The Open Road by Trey Ratcliff, on Flickr"&gt;&lt;img src="https://farm3.staticflickr.com/2119/2049233526_358678b16e_n.jpg" width="320" height="222" alt="The Open Road" /&gt;&lt;/a&gt;
+photo by &lt;a href="https://www.flickr.com/photos/stuckincustoms/2049233526/in/photolist-485RJw-5ipjDq-99Nmqx-pbH6Qi-anaEHL-4Xf2Xh-cmbHLC-7R7vze-5MVMFd-bY9zN-5aeDJZ-7nhMYE-aHeN6v-BhyTk-bMZwPp-56QaoT-6kz7BJ-jW1mQK-9A7rZh-5rocaR-99FTpk-juFhHc-8xF1TG-4FKL7v-4YsJTF-5dNBAA-4Hb2iR-dUTXRh-9iuMzn-6mbd52-aVeDRD-4CgLkK-4zcWsQ-4BvXL8-4Ko6LX-53Udsn-5qELdT-4tAJvJ-6xNwkv-2yP5n9-7vDQfY-aVedCX-5YZuU8-5ESFfM-9zy4P6-aTibAr-4PpRgm-9kvKoy-osZzjn-gy7e8K/" target="_blank"&gt;Trey Ratcliff&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id="section"&gt;鍋会&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;場所: 自宅&lt;/li&gt;
+  &lt;li&gt;時間: 13:00&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-1"&gt;買出し(ピェンロー鍋)&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="http://localhost"&gt;ピェンロー鍋参考&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;豚バラ肉&lt;/li&gt;
+  &lt;li&gt;白菜&lt;/li&gt;
+  &lt;li&gt;鶏肉&lt;/li&gt;
+  &lt;li&gt;春雨&lt;/li&gt;
+  &lt;li&gt;昆布&lt;/li&gt;
+  &lt;li&gt;しいたけ&lt;/li&gt;
+  &lt;li&gt;その他
+    &lt;ul&gt;
+      &lt;li&gt;割り箸&lt;/li&gt;
+      &lt;li&gt;皿&lt;/li&gt;
+      &lt;li&gt;紙コップ&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-2"&gt;手順&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;鍋に昆布としいたけで出しをとる&lt;/li&gt;
+  &lt;li&gt;白菜を切る
+    &lt;ul&gt;
+      &lt;li&gt;葉は大きめに切る&lt;/li&gt;
+      &lt;li&gt;芯の方は細かく切る&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;作る&lt;/li&gt;
+  &lt;li&gt;食べる&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+  </entry>
+  <entry>
+    <title>sample8</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2014/12/17/8.html"/>
+    <id>http://blog.url.com/blog/2014/12/17/8.html</id>
+    <published>2014-12-17T01:44:00+09:00</published>
+    <updated>2014-12-21T02:55:46+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;I get 10 times more traffic from &lt;a title="Google" href="http://google.com/"&gt;Google&lt;/a&gt; than from
+&lt;a title="Yahoo Search" href="http://search.yahoo.com/"&gt;Yahoo&lt;/a&gt; or &lt;a title="MSN Search" href="http://search.msn.com/"&gt;MSN&lt;/a&gt;.&lt;/p&gt;
+
+</content>
+  </entry>
+  <entry>
+    <title>sample7</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2014/12/17/7.html"/>
+    <id>http://blog.url.com/blog/2014/12/17/7.html</id>
+    <published>2014-12-17T01:44:00+09:00</published>
+    <updated>2014-12-21T02:55:41+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;a href="http://localhost"&gt;ローカルホスト&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>sample6</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2014/12/17/6.html"/>
+    <id>http://blog.url.com/blog/2014/12/17/6.html</id>
+    <published>2014-12-17T01:44:00+09:00</published>
+    <updated>2014-12-21T02:55:35+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+</content>
+  </entry>
+  <entry>
+    <title>sample5</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2014/12/17/5.html"/>
+    <id>http://blog.url.com/blog/2014/12/17/5.html</id>
+    <published>2014-12-17T01:44:00+09:00</published>
+    <updated>2014-12-21T02:55:28+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;ol&gt;
+  &lt;li&gt;色は匂へど&lt;/li&gt;
+  &lt;li&gt;散りぬるを&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;我が世誰ぞ&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;色は匂へど&lt;/li&gt;
+  &lt;li&gt;散りぬるを&lt;/li&gt;
+  &lt;li&gt;我が世誰ぞ&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+  </entry>
+  <entry>
+    <title>sample11</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2014/12/17/11.html"/>
+    <id>http://blog.url.com/blog/2014/12/17/11.html</id>
+    <published>2014-12-17T01:44:00+09:00</published>
+    <updated>2014-12-21T02:55:07+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;sample11&lt;/p&gt;
+</content>
+  </entry>
+</feed>

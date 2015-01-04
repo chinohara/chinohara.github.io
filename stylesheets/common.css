@@ -1,0 +1,225 @@
+body {
+	/* font-family: 'Orbitron', sans-serif; */
+	font-family:  "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, "メイリオ", Meiryo, sans-serif;
+	background-color: #F8F8F8;
+	color: #737373;
+}
+
+.container {
+  padding: 5px;
+  background: #F5F5F5;
+}
+.shape {
+  box-shadow: 1px 1px rgb(221, 221, 221), 2px 2px rgb(221, 221, 221), 3px 3px rgb(221, 221, 221);
+   background-color: rgb(121, 209, 176);
+   text-shadow: 1px 1px rgb(109, 188, 158), 2px 2px rgb(109, 188, 158), 3px 3px rgb(109, 188, 158);
+  height: 15px;
+  width: 15px;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+}
+
+.last-right {
+	margin: 0px 3px 0px 32px;  
+}
+
+.header {
+	/* font-family: 'Reenie Beanie', cursive; */
+	font-family: 'Orbitron', sans-serif;
+	font-weight:bold; 
+	color: #383838;
+}
+
+.sub-header {
+	font-family: 'Orbitron', sans-serif;
+	background-color: #F8F8F8;
+	color: #737373;
+	font-size: 25px;
+	padding: 5px 5px 5px 5px;
+}
+
+.subtitle-m-w {
+	color: #79D1B0;
+	font-size: 25px;
+	padding: 5px 5px 0px 5px;
+}
+
+.subtitle-m-a {
+	color: #F58E7E;
+	font-size: 25px;
+	padding: 5px 5px 0px 5px;
+}
+
+.subtitle-m-g {
+	color: #FDC44F;
+	font-size: 25px;
+	padding: 5px 5px 0px 5px;
+}
+
+.subtitle-s {
+	color: #737373;
+	font-size: 13px;
+	padding: 0px 5px 5px 0px;
+}
+
+.content {
+	background-color: #F8F8F8;
+	margin: 5px 10px 10px 10px;
+	overflow: hidden;
+	border-bottom: solid 1px #737373;
+}
+
+.content-head {
+	background-color: #79D1B0;
+	color: #F8F8F8;
+	font-size: 20px;
+	padding: 10px 5px 10px 5px;
+	border-left: solid 10px #58BE89;
+}
+
+.content-head a {
+	text-decoration: none;
+	color: #F8F8F8;
+}
+
+.content-date {
+	margin: 5px 0px 0px 0px;
+	font-size: 11px;
+}
+
+.content-tags {
+	margin: 5px 0px 0px 0px;
+}
+
+.top-mg {
+	margin: 5px 0px 0px 0px;
+}
+
+
+.tag {
+	background-color: #FDC44F;
+	color: #F8F8F8;
+	margin: 0px 5px 0px 0px;
+	padding: 0px 2px 0px 2px;
+	font-size: 11px;
+}
+
+.tag a{
+	text-decoration: none;
+	color: #F8F8F8;
+}
+
+.content-main {
+	background-color: #F8F8F8;
+	color: #737373;
+	font-size: 13px;
+	padding: 0px 5px 5px 5px;
+}
+
+.pagenate {
+	font-family: 'Orbitron', sans-serif;
+	font-size: 13px;
+	margin: 5px 10px 10px 10px;
+	padding: 0px 5px 5px 5px;
+}
+
+.pagenate a {
+	text-decoration: none;
+}
+
+.sidebar {
+}
+
+.subarea {
+	margin: 5px 10px 10px 10px;
+}
+
+.sub-head {
+	font-family: 'Orbitron', sans-serif;
+	color: #383838;
+	font-size: 20px;
+	padding: 10px 5px 10px 5px;
+}
+
+.sub-main {
+	background-color: #F8F8F8;
+	color: #737373;
+	padding: 5px 5px 5px 15px;
+	border-bottom: solid 1px #737373;
+}
+
+.sub-main a {
+	text-decoration: none;
+	color: #737373;
+}
+
+.resent-date {
+	margin: 5px 0px 0px 15px;
+	font-size: 11px;
+}
+
+.footer {
+	/* font-family: 'Orbitron', sans-serif; */
+	color: #737373;
+	font-size: 11px;
+	margin: 5px 10px 10px 15px;
+}
+
+.year-tags-header {
+	/* font-family: 'Reenie Beanie', cursive; */
+	font-family: 'Orbitron', sans-serif;
+	background-color: #F8F8F8;
+	color: #383838;
+	font-size: 25px;
+	padding: 5px 5px 5px 5px;
+	border-bottom: solid 5px #79D1B0;
+}
+
+.year-tags-main {
+	background-color: #F8F8F8;
+	margin: 5px 10px 10px 10px;
+	padding: 5px 5px 5px 0px;
+}
+
+.year-tags-content {
+	border-bottom: solid 1px #737373;
+	padding: 5px 5px 5px 15px;
+}
+
+.year-tags-content a {
+	text-decoration: none;
+	color: #737373;
+}
+
+.clr_shamrock {
+	color: #2FCDB4;
+}
+
+.clr_whiteSmoke {
+	color: #F8F8F8;
+}
+
+.clr_bunker {
+	color: #202223;
+}
+
+.clr_empress {
+	color: #737373;
+}
+
+.blclr_shamrock {
+	background-color: #2FCDB4;
+}
+
+.blclr_whiteSmoke {
+	background-color: #F8F8F8;
+}
+
+.blclr_bunker {
+	background-color: #202223;
+}
+
+.bkclr_empress {
+	background-color: #737373;
+}
