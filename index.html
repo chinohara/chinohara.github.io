@@ -27,6 +27,8 @@
     <link href="/stylesheets/sidr/jquery.sidr.dark.css" rel="stylesheet" type="text/css" media="all" />
     <link href="/stylesheets/genericons/genericons.css" rel="stylesheet" type="text/css" media="all" />
     <link href="/stylesheets/common.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="/stylesheets/modules/syntax_highlight.css" rel="stylesheet" type="text/css" media="all" />
+
     <title>Blog Title</title>
     <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/blog/feed.xml" />
   </head>
@@ -58,7 +60,8 @@
           
         </div>
         <div class="pure-u-1 pure-u-sm-2-3">
-            <div class="content">
+            <!-- blog.erbと共有 start -->
+  <div class="content">
     <div class="content-head">
       <a href="/blog/2014/12/17/9.html">sample9</a>
     </div>
@@ -76,6 +79,23 @@
            <p><a href="https://www.flickr.com/photos/stuckincustoms/2049233526" title="The Open Road by Trey Ratcliff, on Flickr"><img src="https://farm3.staticflickr.com/2119/2049233526_358678b16e_n.jpg" width="320" height="222" alt="The Open Road" /></a>
 photo by <a href="https://www.flickr.com/photos/stuckincustoms/2049233526/in/photolist-485RJw-5ipjDq-99Nmqx-pbH6Qi-anaEHL-4Xf2Xh-cmbHLC-7R7vze-5MVMFd-bY9zN-5aeDJZ-7nhMYE-aHeN6v-BhyTk-bMZwPp-56QaoT-6kz7BJ-jW1mQK-9A7rZh-5rocaR-99FTpk-juFhHc-8xF1TG-4FKL7v-4YsJTF-5dNBAA-4Hb2iR-dUTXRh-9iuMzn-6mbd52-aVeDRD-4CgLkK-4zcWsQ-4BvXL8-4Ko6LX-53Udsn-5qELdT-4tAJvJ-6xNwkv-2yP5n9-7vDQfY-aVedCX-5YZuU8-5ESFfM-9zy4P6-aTibAr-4PpRgm-9kvKoy-osZzjn-gy7e8K/" target="_blank">Trey Ratcliff</a></p>
 
+<p><code>ruby
+set :markdown_engine, :redcarpet
+def my_cool_method(message)
+  puts message
+end
+</code></p>
+
+<div class="highlight ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4</pre></td><td class="code"><pre><span class="n">set</span> <span class="ss">:markdown_engine</span><span class="p">,</span> <span class="ss">:redcarpet</span>
+<span class="k">def</span> <span class="nf">my_cool_method</span><span class="p">(</span><span class="n">message</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="n">message</span>
+<span class="k">end</span>
+</pre></td></tr></tbody></table>
+</div>
+
 <h1 id="section">鍋会</h1>
 
 <ul>
@@ -83,6 +103,23 @@ photo by <a href="https://www.flickr.com/photos/stuckincustoms/2049233526/in/pho
   <li>時間: 13:00
       <!--<p><a href="https://www.flickr.com/photos/stuckincustoms/2049233526" title="The Open Road by Trey Ratcliff, on Flickr"><img src="https://farm3.staticflickr.com/2119/2049233526_358678b16e_n.jpg" width="320" height="222" alt="The Open Road" /></a>
 photo by <a href="https://www.flickr.com/photos/stuckincustoms/2049233526/in/photolist-485RJw-5ipjDq-99Nmqx-pbH6Qi-anaEHL-4Xf2Xh-cmbHLC-7R7vze-5MVMFd-bY9zN-5aeDJZ-7nhMYE-aHeN6v-BhyTk-bMZwPp-56QaoT-6kz7BJ-jW1mQK-9A7rZh-5rocaR-99FTpk-juFhHc-8xF1TG-4FKL7v-4YsJTF-5dNBAA-4Hb2iR-dUTXRh-9iuMzn-6mbd52-aVeDRD-4CgLkK-4zcWsQ-4BvXL8-4Ko6LX-53Udsn-5qELdT-4tAJvJ-6xNwkv-2yP5n9-7vDQfY-aVedCX-5YZuU8-5ESFfM-9zy4P6-aTibAr-4PpRgm-9kvKoy-osZzjn-gy7e8K/" target="_blank">Trey Ratcliff</a></p>
+
+<p><code>ruby
+set :markdown_engine, :redcarpet
+def my_cool_method(message)
+  puts message
+end
+</code></p>
+
+<div class="highlight ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4</pre></td><td class="code"><pre><span class="n">set</span> <span class="ss">:markdown_engine</span><span class="p">,</span> <span class="ss">:redcarpet</span>
+<span class="k">def</span> <span class="nf">my_cool_method</span><span class="p">(</span><span class="n">message</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="n">message</span>
+<span class="k">end</span>
+</pre></td></tr></tbody></table>
+</div>
 
 <h1 id="section">鍋会</h1>
 
@@ -127,6 +164,8 @@ photo by <a href="https://www.flickr.com/photos/stuckincustoms/2049233526/in/pho
 -->
     </div>
   </div>
+  <!-- blog.erbと共有 end -->
+  <!-- blog.erbと共有 start -->
   <div class="content">
     <div class="content-head">
       <a href="/blog/2014/12/17/8.html">sample8</a>
@@ -152,6 +191,8 @@ photo by <a href="https://www.flickr.com/photos/stuckincustoms/2049233526/in/pho
 -->
     </div>
   </div>
+  <!-- blog.erbと共有 end -->
+  <!-- blog.erbと共有 start -->
   <div class="content">
     <div class="content-head">
       <a href="/blog/2014/12/17/7.html">sample7</a>
@@ -175,6 +216,8 @@ photo by <a href="https://www.flickr.com/photos/stuckincustoms/2049233526/in/pho
 -->
     </div>
   </div>
+  <!-- blog.erbと共有 end -->
+  <!-- blog.erbと共有 start -->
   <div class="content">
     <div class="content-head">
       <a href="/blog/2014/12/17/6.html">sample6</a>
@@ -216,6 +259,8 @@ photo by <a href="https://www.flickr.com/photos/stuckincustoms/2049233526/in/pho
 -->
     </div>
   </div>
+  <!-- blog.erbと共有 end -->
+  <!-- blog.erbと共有 start -->
   <div class="content">
     <div class="content-head">
       <a href="/blog/2014/12/17/5.html">sample5</a>
@@ -255,6 +300,8 @@ photo by <a href="https://www.flickr.com/photos/stuckincustoms/2049233526/in/pho
 -->
     </div>
   </div>
+  <!-- blog.erbと共有 end -->
+  <!-- blog.erbと共有 start -->
   <div class="content">
     <div class="content-head">
       <a href="/blog/2014/12/17/11.html">sample11</a>
@@ -276,6 +323,7 @@ photo by <a href="https://www.flickr.com/photos/stuckincustoms/2049233526/in/pho
 -->
     </div>
   </div>
+  <!-- blog.erbと共有 end -->
 <div class="pagenate">
     Page 1 of 2
       <a href="/page/2/"><div alt="f501" class="genericon genericon-rightarrow" title="genericon-rightarrow"></div></a>

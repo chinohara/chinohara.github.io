@@ -14,12 +14,29 @@
     <link rel="alternate" href="http://blog.url.com/blog/2014/12/17/9.html"/>
     <id>http://blog.url.com/blog/2014/12/17/9.html</id>
     <published>2014-12-17T01:44:00+09:00</published>
-    <updated>2014-12-24T01:31:09+09:00</updated>
+    <updated>2015-01-11T23:54:07+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
     <content type="html">&lt;p&gt;&lt;a href="https://www.flickr.com/photos/stuckincustoms/2049233526" title="The Open Road by Trey Ratcliff, on Flickr"&gt;&lt;img src="https://farm3.staticflickr.com/2119/2049233526_358678b16e_n.jpg" width="320" height="222" alt="The Open Road" /&gt;&lt;/a&gt;
 photo by &lt;a href="https://www.flickr.com/photos/stuckincustoms/2049233526/in/photolist-485RJw-5ipjDq-99Nmqx-pbH6Qi-anaEHL-4Xf2Xh-cmbHLC-7R7vze-5MVMFd-bY9zN-5aeDJZ-7nhMYE-aHeN6v-BhyTk-bMZwPp-56QaoT-6kz7BJ-jW1mQK-9A7rZh-5rocaR-99FTpk-juFhHc-8xF1TG-4FKL7v-4YsJTF-5dNBAA-4Hb2iR-dUTXRh-9iuMzn-6mbd52-aVeDRD-4CgLkK-4zcWsQ-4BvXL8-4Ko6LX-53Udsn-5qELdT-4tAJvJ-6xNwkv-2yP5n9-7vDQfY-aVedCX-5YZuU8-5ESFfM-9zy4P6-aTibAr-4PpRgm-9kvKoy-osZzjn-gy7e8K/" target="_blank"&gt;Trey Ratcliff&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;ruby
+set :markdown_engine, :redcarpet
+def my_cool_method(message)
+  puts message
+end
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class="highlight ruby"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
+2
+3
+4&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="n"&gt;set&lt;/span&gt; &lt;span class="ss"&gt;:markdown_engine&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ss"&gt;:redcarpet&lt;/span&gt;
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;my_cool_method&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;message&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+  &lt;span class="nb"&gt;puts&lt;/span&gt; &lt;span class="n"&gt;message&lt;/span&gt;
+&lt;span class="k"&gt;end&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;h1 id="section"&gt;鍋会&lt;/h1&gt;
 
