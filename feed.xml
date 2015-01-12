@@ -10,11 +10,11 @@
     <name>Blog Author</name>
   </author>
   <entry>
-    <title>ブログを記載するためのマークダウン記法まとめ</title>
+    <title>ブログを書くためのマークダウン記法まとめ</title>
     <link rel="alternate" href="http://blog.url.com/blog/2015/01/12/1.html"/>
     <id>http://blog.url.com/blog/2015/01/12/1.html</id>
     <published>2015-01-12T13:24:00+09:00</published>
-    <updated>2015-01-12T15:40:18+09:00</updated>
+    <updated>2015-01-13T01:07:45+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -24,7 +24,7 @@
 
 &lt;h2 id="section"&gt;前提&lt;/h2&gt;
 &lt;p&gt;このブログでも利用しているMiddlemanは
-デフォルトでMarkdownパーサーはKaramdownが設定されています。&lt;/p&gt;
+デフォルトでMarkdownパーサーとしてKaramdownが設定されています。&lt;/p&gt;
 
 &lt;h2 id="section-1"&gt;見出し&lt;/h2&gt;
 &lt;p&gt;見出しを記載する場合、 # を見出しの前に記載する。#の数と見出しの数は一致する。
@@ -69,143 +69,20 @@
 </content>
   </entry>
   <entry>
-    <title>sample5</title>
-    <link rel="alternate" href="http://blog.url.com/blog/2014/12/17/5.html"/>
-    <id>http://blog.url.com/blog/2014/12/17/5.html</id>
-    <published>2014-12-17T01:44:00+09:00</published>
-    <updated>2014-12-21T02:55:28+09:00</updated>
+    <title>sample</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2014/12/10/1.html"/>
+    <id>http://blog.url.com/blog/2014/12/10/1.html</id>
+    <published>2014-12-10T01:15:00+09:00</published>
+    <updated>2014-12-21T02:54:53+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;ol&gt;
-  &lt;li&gt;色は匂へど&lt;/li&gt;
-  &lt;li&gt;散りぬるを&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;我が世誰ぞ&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;色は匂へど&lt;/li&gt;
-  &lt;li&gt;散りぬるを&lt;/li&gt;
-  &lt;li&gt;我が世誰ぞ&lt;/li&gt;
-&lt;/ol&gt;
-</content>
-  </entry>
-  <entry>
-    <title>sample8</title>
-    <link rel="alternate" href="http://blog.url.com/blog/2014/12/17/8.html"/>
-    <id>http://blog.url.com/blog/2014/12/17/8.html</id>
-    <published>2014-12-17T01:44:00+09:00</published>
-    <updated>2014-12-21T02:55:46+09:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;I get 10 times more traffic from &lt;a title="Google" href="http://google.com/"&gt;Google&lt;/a&gt; than from
-&lt;a title="Yahoo Search" href="http://search.yahoo.com/"&gt;Yahoo&lt;/a&gt; or &lt;a title="MSN Search" href="http://search.msn.com/"&gt;MSN&lt;/a&gt;.&lt;/p&gt;
+    <content type="html">&lt;p&gt;This is a sample article!
+サンプルです。&lt;/p&gt;
 
-</content>
-  </entry>
-  <entry>
-    <title>sample7</title>
-    <link rel="alternate" href="http://blog.url.com/blog/2014/12/17/7.html"/>
-    <id>http://blog.url.com/blog/2014/12/17/7.html</id>
-    <published>2014-12-17T01:44:00+09:00</published>
-    <updated>2014-12-21T02:55:41+09:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;&lt;a href="http://localhost"&gt;ローカルホスト&lt;/a&gt;&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>sample6</title>
-    <link rel="alternate" href="http://blog.url.com/blog/2014/12/17/6.html"/>
-    <id>http://blog.url.com/blog/2014/12/17/6.html</id>
-    <published>2014-12-17T01:44:00+09:00</published>
-    <updated>2014-12-21T02:55:35+09:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;hr /&gt;
-
-&lt;hr /&gt;
-
-&lt;hr /&gt;
-
-&lt;hr /&gt;
-
-&lt;hr /&gt;
-
-&lt;hr /&gt;
-</content>
-  </entry>
-  <entry>
-    <title>sample9</title>
-    <link rel="alternate" href="http://blog.url.com/blog/2014/12/17/9.html"/>
-    <id>http://blog.url.com/blog/2014/12/17/9.html</id>
-    <published>2014-12-17T01:44:00+09:00</published>
-    <updated>2015-01-11T23:54:07+09:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;&lt;a href="https://www.flickr.com/photos/stuckincustoms/2049233526" title="The Open Road by Trey Ratcliff, on Flickr"&gt;&lt;img src="https://farm3.staticflickr.com/2119/2049233526_358678b16e_n.jpg" width="320" height="222" alt="The Open Road" /&gt;&lt;/a&gt;
-photo by &lt;a href="https://www.flickr.com/photos/stuckincustoms/2049233526/in/photolist-485RJw-5ipjDq-99Nmqx-pbH6Qi-anaEHL-4Xf2Xh-cmbHLC-7R7vze-5MVMFd-bY9zN-5aeDJZ-7nhMYE-aHeN6v-BhyTk-bMZwPp-56QaoT-6kz7BJ-jW1mQK-9A7rZh-5rocaR-99FTpk-juFhHc-8xF1TG-4FKL7v-4YsJTF-5dNBAA-4Hb2iR-dUTXRh-9iuMzn-6mbd52-aVeDRD-4CgLkK-4zcWsQ-4BvXL8-4Ko6LX-53Udsn-5qELdT-4tAJvJ-6xNwkv-2yP5n9-7vDQfY-aVedCX-5YZuU8-5ESFfM-9zy4P6-aTibAr-4PpRgm-9kvKoy-osZzjn-gy7e8K/" target="_blank"&gt;Trey Ratcliff&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;ruby
-set :markdown_engine, :redcarpet
-def my_cool_method(message)
-  puts message
-end
+&lt;p&gt;&lt;code&gt;ruby:qiita.rb
+puts 'The best way to log and share programmers knowledge.'
 &lt;/code&gt;&lt;/p&gt;
-
-&lt;div class="highlight ruby"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
-2
-3
-4&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="n"&gt;set&lt;/span&gt; &lt;span class="ss"&gt;:markdown_engine&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ss"&gt;:redcarpet&lt;/span&gt;
-&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;my_cool_method&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;message&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-  &lt;span class="nb"&gt;puts&lt;/span&gt; &lt;span class="n"&gt;message&lt;/span&gt;
-&lt;span class="k"&gt;end&lt;/span&gt;
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;h1 id="section"&gt;鍋会&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;場所: 自宅&lt;/li&gt;
-  &lt;li&gt;時間: 13:00&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="section-1"&gt;買出し(ピェンロー鍋)&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href="http://localhost"&gt;ピェンロー鍋参考&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;豚バラ肉&lt;/li&gt;
-  &lt;li&gt;白菜&lt;/li&gt;
-  &lt;li&gt;鶏肉&lt;/li&gt;
-  &lt;li&gt;春雨&lt;/li&gt;
-  &lt;li&gt;昆布&lt;/li&gt;
-  &lt;li&gt;しいたけ&lt;/li&gt;
-  &lt;li&gt;その他
-    &lt;ul&gt;
-      &lt;li&gt;割り箸&lt;/li&gt;
-      &lt;li&gt;皿&lt;/li&gt;
-      &lt;li&gt;紙コップ&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="section-2"&gt;手順&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;鍋に昆布としいたけで出しをとる&lt;/li&gt;
-  &lt;li&gt;白菜を切る
-    &lt;ul&gt;
-      &lt;li&gt;葉は大きめに切る&lt;/li&gt;
-      &lt;li&gt;芯の方は細かく切る&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;作る&lt;/li&gt;
-  &lt;li&gt;食べる&lt;/li&gt;
-&lt;/ol&gt;
 </content>
   </entry>
 </feed>

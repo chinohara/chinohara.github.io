@@ -39,28 +39,10 @@ body {
 	padding: 5px 5px 5px 5px;
 }
 
-.subtitle-m-w {
-	color: #79D1B0;
-	font-size: 25px;
-	padding: 5px 5px 0px 5px;
-}
-
-.subtitle-m-a {
-	color: #F58E7E;
-	font-size: 25px;
-	padding: 5px 5px 0px 5px;
-}
-
-.subtitle-m-g {
-	color: #FDC44F;
-	font-size: 25px;
-	padding: 5px 5px 0px 5px;
-}
-
-.subtitle-s {
+.subtitle-m {
 	color: #737373;
 	font-size: 13px;
-	padding: 0px 5px 5px 0px;
+	padding: 5px 5px 0px 5px;
 }
 
 .content {
@@ -190,6 +172,41 @@ body {
 .year-tags-content a {
 	text-decoration: none;
 	color: #737373;
+}
+
+.about-content {
+	/* font-family: 'Orbitron', sans-serif; */
+	color: #737373;
+	font-size: 13px;
+	margin: 5px 10px 10px 10px;
+}
+
+.about-head {
+	font-family: 'Orbitron', sans-serif;
+	color: #383838;
+	font-size: 20px;
+	padding: 10px 5px 10px 5px;
+}
+
+.about-img {
+	padding: 5px 5px 10px 5px;
+}
+
+.about-main {
+	margin: 5px 5px 0px 10px;	
+}
+
+.sns {
+	background-color: #F58E7E;
+	color: #F8F8F8;
+	margin: 0px 10px 0px 0px;
+	padding: 10px 10px 10px 10px;
+	font-size: 11px;
+}
+
+.sns a{
+	text-decoration: none;
+	color: #F8F8F8;
 }
 
 .clr_shamrock {
