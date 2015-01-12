@@ -5,10 +5,138 @@
   <id>http://blog.url.com/blog</id>
   <link href="http://blog.url.com/blog"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2014-12-17T01:44:00+09:00</updated>
+  <updated>2015-01-12T13:24:00+09:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>ブログを記載するためのマークダウン記法まとめ</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2015/01/12/1.html"/>
+    <id>http://blog.url.com/blog/2015/01/12/1.html</id>
+    <published>2015-01-12T13:24:00+09:00</published>
+    <updated>2015-01-12T15:40:18+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;初回投稿になるので、ブログ記事を投稿するにあたり必要な
+マークダウン記法について纏めようと思います。
+&lt;/p&gt;
+
+&lt;h2 id="section"&gt;前提&lt;/h2&gt;
+&lt;p&gt;このブログでも利用しているMiddlemanは
+デフォルトでMarkdownパーサーはKaramdownが設定されています。&lt;/p&gt;
+
+&lt;h2 id="section-1"&gt;見出し&lt;/h2&gt;
+&lt;p&gt;見出しを記載する場合、 # を見出しの前に記載する。#の数と見出しの数は一致する。
+&amp;lt;h3&amp;gt;の場合、### と記載する。&lt;/p&gt;
+
+&lt;h2 id="section-2"&gt;改行&lt;/h2&gt;
+&lt;p&gt;半角スペース2つ以上つなげると改行になる。&lt;/p&gt;
+
+&lt;h2 id="section-3"&gt;強調&lt;/h2&gt;
+&lt;p&gt;太字の場合、文言を** か __で囲む。
+イタリック体の場合、文言を* か _で囲む。&lt;/p&gt;
+
+&lt;h2 id="section-4"&gt;リスト&lt;/h2&gt;
+&lt;p&gt;リストを示す場合は、 &lt;strong&gt;リストの上部に空行をあけて&lt;/strong&gt;、*, -, +のどれかを入力し、スペース、またはタブを挿入する。&lt;/p&gt;
+
+&lt;h2 id="section-5"&gt;罫線&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;上部に空行をあけて&lt;/strong&gt;、3つ以上の*, -, _のみで行を作成する。&lt;/p&gt;
+
+&lt;h2 id="section-6"&gt;リンク&lt;/h2&gt;
+&lt;p&gt;角括弧で文言、丸括弧でURLを囲む。
+例) [chinohara(このブログサイト)](http://chinohara.github.io/)&lt;/p&gt;
+
+&lt;h2 id="section-7"&gt;コード&lt;/h2&gt;
+&lt;p&gt;コードを記載する場合、~~~ でコードの上下を囲む。
+上部の ~~~ 後に"ruby" 等を指定してハイライトを設定する。&lt;/p&gt;
+
+&lt;div class="highlight ruby"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
+2
+3
+4&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="n"&gt;set&lt;/span&gt; &lt;span class="ss"&gt;:markdown_engine&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ss"&gt;:redcarpet&lt;/span&gt;
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;my_cool_method&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;message&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+  &lt;span class="nb"&gt;puts&lt;/span&gt; &lt;span class="n"&gt;message&lt;/span&gt;
+&lt;span class="k"&gt;end&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;h2 id="section-8"&gt;エスケープ&lt;/h2&gt;
+&lt;p&gt;エスケープさせたい場合は、\(バックシュラッシュ) or &amp;lt;div&amp;gt;&amp;lt;/div&amp;gt;ダグで囲む。&lt;/p&gt;
+
+&lt;p&gt;とりあえず、コレくらい知っておけば、いいのかな。。。&lt;/p&gt;
+
+</content>
+  </entry>
+  <entry>
+    <title>sample5</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2014/12/17/5.html"/>
+    <id>http://blog.url.com/blog/2014/12/17/5.html</id>
+    <published>2014-12-17T01:44:00+09:00</published>
+    <updated>2014-12-21T02:55:28+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;ol&gt;
+  &lt;li&gt;色は匂へど&lt;/li&gt;
+  &lt;li&gt;散りぬるを&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;我が世誰ぞ&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;色は匂へど&lt;/li&gt;
+  &lt;li&gt;散りぬるを&lt;/li&gt;
+  &lt;li&gt;我が世誰ぞ&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+  </entry>
+  <entry>
+    <title>sample8</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2014/12/17/8.html"/>
+    <id>http://blog.url.com/blog/2014/12/17/8.html</id>
+    <published>2014-12-17T01:44:00+09:00</published>
+    <updated>2014-12-21T02:55:46+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;I get 10 times more traffic from &lt;a title="Google" href="http://google.com/"&gt;Google&lt;/a&gt; than from
+&lt;a title="Yahoo Search" href="http://search.yahoo.com/"&gt;Yahoo&lt;/a&gt; or &lt;a title="MSN Search" href="http://search.msn.com/"&gt;MSN&lt;/a&gt;.&lt;/p&gt;
+
+</content>
+  </entry>
+  <entry>
+    <title>sample7</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2014/12/17/7.html"/>
+    <id>http://blog.url.com/blog/2014/12/17/7.html</id>
+    <published>2014-12-17T01:44:00+09:00</published>
+    <updated>2014-12-21T02:55:41+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;a href="http://localhost"&gt;ローカルホスト&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>sample6</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2014/12/17/6.html"/>
+    <id>http://blog.url.com/blog/2014/12/17/6.html</id>
+    <published>2014-12-17T01:44:00+09:00</published>
+    <updated>2014-12-21T02:55:35+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+</content>
+  </entry>
   <entry>
     <title>sample9</title>
     <link rel="alternate" href="http://blog.url.com/blog/2014/12/17/9.html"/>
@@ -78,87 +206,6 @@ end
   &lt;li&gt;作る&lt;/li&gt;
   &lt;li&gt;食べる&lt;/li&gt;
 &lt;/ol&gt;
-</content>
-  </entry>
-  <entry>
-    <title>sample8</title>
-    <link rel="alternate" href="http://blog.url.com/blog/2014/12/17/8.html"/>
-    <id>http://blog.url.com/blog/2014/12/17/8.html</id>
-    <published>2014-12-17T01:44:00+09:00</published>
-    <updated>2014-12-21T02:55:46+09:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;I get 10 times more traffic from &lt;a title="Google" href="http://google.com/"&gt;Google&lt;/a&gt; than from
-&lt;a title="Yahoo Search" href="http://search.yahoo.com/"&gt;Yahoo&lt;/a&gt; or &lt;a title="MSN Search" href="http://search.msn.com/"&gt;MSN&lt;/a&gt;.&lt;/p&gt;
-
-</content>
-  </entry>
-  <entry>
-    <title>sample7</title>
-    <link rel="alternate" href="http://blog.url.com/blog/2014/12/17/7.html"/>
-    <id>http://blog.url.com/blog/2014/12/17/7.html</id>
-    <published>2014-12-17T01:44:00+09:00</published>
-    <updated>2014-12-21T02:55:41+09:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;&lt;a href="http://localhost"&gt;ローカルホスト&lt;/a&gt;&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>sample6</title>
-    <link rel="alternate" href="http://blog.url.com/blog/2014/12/17/6.html"/>
-    <id>http://blog.url.com/blog/2014/12/17/6.html</id>
-    <published>2014-12-17T01:44:00+09:00</published>
-    <updated>2014-12-21T02:55:35+09:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;hr /&gt;
-
-&lt;hr /&gt;
-
-&lt;hr /&gt;
-
-&lt;hr /&gt;
-
-&lt;hr /&gt;
-
-&lt;hr /&gt;
-</content>
-  </entry>
-  <entry>
-    <title>sample5</title>
-    <link rel="alternate" href="http://blog.url.com/blog/2014/12/17/5.html"/>
-    <id>http://blog.url.com/blog/2014/12/17/5.html</id>
-    <published>2014-12-17T01:44:00+09:00</published>
-    <updated>2014-12-21T02:55:28+09:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;ol&gt;
-  &lt;li&gt;色は匂へど&lt;/li&gt;
-  &lt;li&gt;散りぬるを&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;我が世誰ぞ&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;色は匂へど&lt;/li&gt;
-  &lt;li&gt;散りぬるを&lt;/li&gt;
-  &lt;li&gt;我が世誰ぞ&lt;/li&gt;
-&lt;/ol&gt;
-</content>
-  </entry>
-  <entry>
-    <title>sample11</title>
-    <link rel="alternate" href="http://blog.url.com/blog/2014/12/17/11.html"/>
-    <id>http://blog.url.com/blog/2014/12/17/11.html</id>
-    <published>2014-12-17T01:44:00+09:00</published>
-    <updated>2014-12-21T02:55:07+09:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;sample11&lt;/p&gt;
 </content>
   </entry>
 </feed>

@@ -29,7 +29,7 @@
     <link href="/stylesheets/common.css" rel="stylesheet" type="text/css" media="all" />
     <link href="/stylesheets/modules/syntax_highlight.css" rel="stylesheet" type="text/css" media="all" />
 
-    <title>Blog Title - sample9</title>
+    <title>Blog Title - ブログを記載するためのマークダウン記法まとめ</title>
     <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/blog/feed.xml" />
   </head>
   <body>
@@ -62,26 +62,50 @@
         <div class="pure-u-1 pure-u-sm-2-3">
           		<div class="content">
 	    <div class="content-head">
-	      <a href="/blog/2014/12/17/9.html">sample9</a>
+	      <a href="/blog/2015/01/12/1.html">ブログを記載するためのマークダウン記法まとめ</a>
 	    </div>
 	    <div class="content-date">
 	      <div alt="f303" class="genericon genericon-time" title="genericon-time"></div>
-	      <span>2014/12/17 01:44</span>
+	      <span>2015/01/12 13:24</span>
 	    </div>
 	    <div class="content-tages">
 	      <div alt="f302" class="genericon genericon-tag top-mg" title="genericon-tag"></div>
+	            <span class="tag"><a href="/blog/tags/middleman.html">Middleman</a></span>
 	    </div>
 
 	    <div class="content-main">
-	      <p><a href="https://www.flickr.com/photos/stuckincustoms/2049233526" title="The Open Road by Trey Ratcliff, on Flickr"><img src="https://farm3.staticflickr.com/2119/2049233526_358678b16e_n.jpg" width="320" height="222" alt="The Open Road" /></a>
-photo by <a href="https://www.flickr.com/photos/stuckincustoms/2049233526/in/photolist-485RJw-5ipjDq-99Nmqx-pbH6Qi-anaEHL-4Xf2Xh-cmbHLC-7R7vze-5MVMFd-bY9zN-5aeDJZ-7nhMYE-aHeN6v-BhyTk-bMZwPp-56QaoT-6kz7BJ-jW1mQK-9A7rZh-5rocaR-99FTpk-juFhHc-8xF1TG-4FKL7v-4YsJTF-5dNBAA-4Hb2iR-dUTXRh-9iuMzn-6mbd52-aVeDRD-4CgLkK-4zcWsQ-4BvXL8-4Ko6LX-53Udsn-5qELdT-4tAJvJ-6xNwkv-2yP5n9-7vDQfY-aVedCX-5YZuU8-5ESFfM-9zy4P6-aTibAr-4PpRgm-9kvKoy-osZzjn-gy7e8K/" target="_blank">Trey Ratcliff</a></p>
+	      <p>初回投稿になるので、ブログ記事を投稿するにあたり必要な
+マークダウン記法について纏めようと思います。
+</p>
 
-<p><code>ruby
-set :markdown_engine, :redcarpet
-def my_cool_method(message)
-  puts message
-end
-</code></p>
+<h2 id="section">前提</h2>
+<p>このブログでも利用しているMiddlemanは
+デフォルトでMarkdownパーサーはKaramdownが設定されています。</p>
+
+<h2 id="section-1">見出し</h2>
+<p>見出しを記載する場合、 # を見出しの前に記載する。#の数と見出しの数は一致する。
+&lt;h3&gt;の場合、### と記載する。</p>
+
+<h2 id="section-2">改行</h2>
+<p>半角スペース2つ以上つなげると改行になる。</p>
+
+<h2 id="section-3">強調</h2>
+<p>太字の場合、文言を** か __で囲む。
+イタリック体の場合、文言を* か _で囲む。</p>
+
+<h2 id="section-4">リスト</h2>
+<p>リストを示す場合は、 <strong>リストの上部に空行をあけて</strong>、*, -, +のどれかを入力し、スペース、またはタブを挿入する。</p>
+
+<h2 id="section-5">罫線</h2>
+<p><strong>上部に空行をあけて</strong>、3つ以上の*, -, _のみで行を作成する。</p>
+
+<h2 id="section-6">リンク</h2>
+<p>角括弧で文言、丸括弧でURLを囲む。
+例) [chinohara(このブログサイト)](http://chinohara.github.io/)</p>
+
+<h2 id="section-7">コード</h2>
+<p>コードを記載する場合、~~~ でコードの上下を囲む。
+上部の ~~~ 後に"ruby" 等を指定してハイライトを設定する。</p>
 
 <div class="highlight ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
 2
@@ -93,46 +117,11 @@ end
 </pre></td></tr></tbody></table>
 </div>
 
-<h1 id="section">鍋会</h1>
+<h2 id="section-8">エスケープ</h2>
+<p>エスケープさせたい場合は、\(バックシュラッシュ) or &lt;div&gt;&lt;/div&gt;ダグで囲む。</p>
 
-<ul>
-  <li>場所: 自宅</li>
-  <li>時間: 13:00</li>
-</ul>
+<p>とりあえず、コレくらい知っておけば、いいのかな。。。</p>
 
-<h2 id="section-1">買出し(ピェンロー鍋)</h2>
-
-<p><a href="http://localhost">ピェンロー鍋参考</a></p>
-
-<ul>
-  <li>豚バラ肉</li>
-  <li>白菜</li>
-  <li>鶏肉</li>
-  <li>春雨</li>
-  <li>昆布</li>
-  <li>しいたけ</li>
-  <li>その他
-    <ul>
-      <li>割り箸</li>
-      <li>皿</li>
-      <li>紙コップ</li>
-    </ul>
-  </li>
-</ul>
-
-<h2 id="section-2">手順</h2>
-
-<ol>
-  <li>鍋に昆布としいたけで出しをとる</li>
-  <li>白菜を切る
-    <ul>
-      <li>葉は大きめに切る</li>
-      <li>芯の方は細かく切る</li>
-    </ul>
-  </li>
-  <li>作る</li>
-  <li>食べる</li>
-</ol>
 
 	    </div>
 	  </div>
