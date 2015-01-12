@@ -14,7 +14,7 @@
     <link rel="alternate" href="http://blog.url.com/blog/2015/01/12/1.html"/>
     <id>http://blog.url.com/blog/2015/01/12/1.html</id>
     <published>2015-01-12T13:24:00+09:00</published>
-    <updated>2015-01-13T01:07:45+09:00</updated>
+    <updated>2015-01-13T01:09:27+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -66,23 +66,6 @@
 
 &lt;p&gt;とりあえず、コレくらい知っておけば、いいのかな。。。&lt;/p&gt;
 
-</content>
-  </entry>
-  <entry>
-    <title>sample</title>
-    <link rel="alternate" href="http://blog.url.com/blog/2014/12/10/1.html"/>
-    <id>http://blog.url.com/blog/2014/12/10/1.html</id>
-    <published>2014-12-10T01:15:00+09:00</published>
-    <updated>2014-12-21T02:54:53+09:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;This is a sample article!
-サンプルです。&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;ruby:qiita.rb
-puts 'The best way to log and share programmers knowledge.'
-&lt;/code&gt;&lt;/p&gt;
 </content>
   </entry>
 </feed>
