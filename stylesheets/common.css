@@ -209,6 +209,23 @@ body {
 	color: #F8F8F8;
 }
 
+.shares {
+	margin: 5px 10px 10px 10px;
+}
+.twitter-share-button {
+	float : left ;
+}
+
+.fb-share-button {
+	float : left ;
+	width: 130px;
+ 	height: 20px;
+}
+
+.end-share-button {
+	clear : both ;
+}
+
 .clr_shamrock {
 	color: #2FCDB4;
 }
