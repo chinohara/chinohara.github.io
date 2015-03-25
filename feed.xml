@@ -5,10 +5,71 @@
   <id>http://blog.url.com/blog</id>
   <link href="http://blog.url.com/blog"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2015-03-03T01:05:00+09:00</updated>
+  <updated>2015-03-13T00:56:00+09:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>ローカルにWordpressを構築してみた</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2015/03/13/1.html"/>
+    <id>http://blog.url.com/blog/2015/03/13/1.html</id>
+    <published>2015-03-13T00:56:00+09:00</published>
+    <updated>2015-03-26T01:05:42+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;ブログなり、コンテンツを管理するなら、一から作るより、 &lt;br /&gt;
+パッケージをカスタマイズしたほうがコンテンツを提供していくことに時間を割けるなと思い、 &lt;br /&gt;
+Wordpressをカスタマイズすることにしました。&lt;/p&gt;
+
+&lt;p&gt;今回はカスタマイズするにあたり、ローカルの環境構築で参考にしたサイトのメモです。
+&lt;/p&gt;
+
+&lt;h2 id="web"&gt;ローカル環境構築時に参考にしたWebサイト&lt;/h2&gt;
+
+&lt;h3 id="wordpress---mamp--webkarunet"&gt;WordPressをローカルにインストール - MAMP | webkaru.net&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://webkaru.net/wordpress/wp-install-mamp/"&gt;http://webkaru.net/wordpress/wp-install-mamp/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;ローカルにMAMPは元々入れていたので、 &lt;br /&gt;
+  ①データベースの作成 &lt;br /&gt;
+  ②Wordpressのダウンロード、インストール  &lt;br /&gt;
+のみ実施しました。簡単です。&lt;/p&gt;
+
+&lt;h2 id="section"&gt;導入したテンプレート、カスタマイズの準備&lt;/h2&gt;
+
+&lt;h3 id="xeory--xeoryjp"&gt;Xeory | xeory.jp&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://xeory.jp/"&gt;https://xeory.jp/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;ブログ形式の"Xeory Base"と、企業サイトのような"Xeory Extension"があります。 &lt;br /&gt;
+どちらも見た目がシンプルで使いやすい印象を受けました。 &lt;br /&gt;
+管理画面もカスタマイズされており、管理画面のメモ書きに沿って設定すれば、SEOの基礎も身に付くそうです。 &lt;br /&gt;
+まさに一石二鳥！   &lt;/p&gt;
+
+&lt;h3 id="xeory---february29"&gt;【Xeoryカスタマイズ】スマホ表示時の妙な隙間が気になるので修正  | February29&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://feb29.org/xeory-customise-mobile-display.html"&gt;http://feb29.org/xeory-customise-mobile-display.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;カスタマイズするときは、子テンプレートを作ろうという記事。 &lt;br /&gt;
+この記事を読んで、別途style.cssを作成しました。&lt;/p&gt;
+
+&lt;h3 id="wordpressxampp---wordpressorg"&gt;ローカルマシンにwordpressをインストールするXAMPPのドメイン変更  | wordpress.org&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://ja.forums.wordpress.org/topic/21118"&gt;https://ja.forums.wordpress.org/topic/21118&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;PCのローカル上でWordpressを立ち上げて、
+スマホからIPアドレスをURLに指定してアクセスした場合、 &lt;br /&gt;
+CSSが読み込まれず、レイアウトの確認ができないので困っていた時に読んだ記事。  &lt;/p&gt;
+
+&lt;p&gt;データベース、wp_optionsテーブルの「siteurl」「home」の値が、 &lt;br /&gt;
+http://localhost/xxxになってる場合は、http://192.168.x.x/xxxに変更が必要とのこと。 &lt;br /&gt;
+css等、この設定のURLパスをもとに設定しているそうです。&lt;/p&gt;
+
+&lt;p&gt;「Wordpress管理画面左のサイドメニュー」 → 「一般」の設定内の下記に指定してもOK。 &lt;br /&gt;
+WordPress アドレス (URL) &lt;br /&gt;
+サイトアドレス (URL)&lt;/p&gt;
+
+&lt;p&gt;とりあえず、環境構築はここまで。&lt;/p&gt;
+
+</content>
+  </entry>
   <entry>
     <title>非デザイナーがデザインする時に見た方が良い書籍、webサイト</title>
     <link rel="alternate" href="http://blog.url.com/blog/2015/03/03/1.html"/>

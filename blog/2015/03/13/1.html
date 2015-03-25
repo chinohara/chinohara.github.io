@@ -36,7 +36,7 @@
     <link href="/stylesheets/common.css" rel="stylesheet" type="text/css" media="all" />
     <link href="/stylesheets/modules/syntax_highlight.css" rel="stylesheet" type="text/css" media="all" />
 
-    <title>Chinohara's Page - Google Analyticsを設置してみた</title>
+    <title>Chinohara's Page - ローカルにWordpressを構築してみた</title>
     <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/blog/feed.xml" />
 
     <!-- googleAnalytics start-->
@@ -78,72 +78,68 @@
           
 		<div class="content">
 		    <div class="content-head">
-		      <a href="/blog/2015/02/04/1.html">Google Analyticsを設置してみた</a>
+		      <a href="/blog/2015/03/13/1.html">ローカルにWordpressを構築してみた</a>
 		    </div>
 		    <div class="content-date">
 		      <div alt="f303" class="genericon genericon-time" title="genericon-time"></div>
-		      <span>2015/02/04 01:49</span>
+		      <span>2015/03/13 00:56</span>
 		    </div>
 		    <div class="content-tages">
 		      <div alt="f302" class="genericon genericon-tag top-mg" title="genericon-tag"></div>
-		            <span class="tag"><a href="/blog/tags/google-analytics.html">Google Analytics</a></span>
+		            <span class="tag"><a href="/blog/tags/wordpress.html">wordpress</a></span>
 		    </div>
 
 		    <div class="content-main">
-		      <p>Webサービスを運営していく際に、ページビューとかアクセス解析をしてみたいなと思い、
-Google Analyticsを設置するまでに参考にしたページをメモしてみた。
+		      <p>ブログなり、コンテンツを管理するなら、一から作るより、 <br />
+パッケージをカスタマイズしたほうがコンテンツを提供していくことに時間を割けるなと思い、 <br />
+Wordpressをカスタマイズすることにしました。</p>
+
+<p>今回はカスタマイズするにあたり、ローカルの環境構築で参考にしたサイトのメモです。
 </p>
 
-<h2 id="section">参考にしたページ</h2>
+<h2 id="web">ローカル環境構築時に参考にしたWebサイト</h2>
 
-<h3 id="google--lig">無料アクセス解析ツールの定番「Googleアナリティクス」の意味と導入方法を知ろう | 株式会社LIG</h3>
-<p><a href="http://liginc.co.jp/web/seo/107784">http://liginc.co.jp/web/seo/107784</a></p>
+<h3 id="wordpress---mamp--webkarunet">WordPressをローカルにインストール - MAMP | webkaru.net</h3>
+<p><a href="http://webkaru.net/wordpress/wp-install-mamp/">http://webkaru.net/wordpress/wp-install-mamp/</a></p>
 
-<h3 id="google-analytics--stockerjp--diary">Google Analyticsのコードがコピーされても動かないようにする方法 | Stocker.jp / diary</h3>
-<p><a href="http://stocker.jp/diary/google-analytics/">http://stocker.jp/diary/google-analytics/</a></p>
+<p>ローカルにMAMPは元々入れていたので、 <br />
+  ①データベースの作成 <br />
+  ②Wordpressのダウンロード、インストール  <br />
+のみ実施しました。簡単です。</p>
 
-<h2 id="section-1">設置までの概要</h2>
+<h2 id="section">導入したテンプレート、カスタマイズの準備</h2>
 
-<h3 id="google">Googleアナリティクス公式サイト</h3>
-<p><a href="http://www.google.com/intl/ja_ALL/analytics/index.html">http://www.google.com/intl/ja_ALL/analytics/index.html</a></p>
+<h3 id="xeory--xeoryjp">Xeory | xeory.jp</h3>
+<p><a href="https://xeory.jp/">https://xeory.jp/</a></p>
 
-<p>Googleのアカウントを持っている場合は、上記サイトにログイン。 <br />
-アカウントの登録で、設置するWebサイトのURLを指定。 <br />
-トラッキングIDの取得。 <br />
-トラッキングIDを指定した、トラッキングコードをWebサイトに設定。</p>
+<p>ブログ形式の"Xeory Base"と、企業サイトのような"Xeory Extension"があります。 <br />
+どちらも見た目がシンプルで使いやすい印象を受けました。 <br />
+管理画面もカスタマイズされており、管理画面のメモ書きに沿って設定すれば、SEOの基礎も身に付くそうです。 <br />
+まさに一石二鳥！   </p>
 
-<div class="highlight html"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13</pre></td><td class="code"><pre><span class="c">&lt;!-- googleAnalytics start--&gt;</span>
-<span class="nt">&lt;script&gt;</span>
-<span class="k">if</span> <span class="p">(</span><span class="nx">location</span><span class="p">.</span><span class="nx">hostname</span> <span class="o">==</span> <span class="s2">"yourpage.com"</span><span class="p">)</span> <span class="p">{</span>
-  <span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">i</span><span class="p">,</span><span class="nx">s</span><span class="p">,</span><span class="nx">o</span><span class="p">,</span><span class="nx">g</span><span class="p">,</span><span class="nx">r</span><span class="p">,</span><span class="nx">a</span><span class="p">,</span><span class="nx">m</span><span class="p">){</span><span class="nx">i</span><span class="p">[</span><span class="s1">'GoogleAnalyticsObject'</span><span class="p">]</span><span class="o">=</span><span class="nx">r</span><span class="p">;</span><span class="nx">i</span><span class="p">[</span><span class="nx">r</span><span class="p">]</span><span class="o">=</span><span class="nx">i</span><span class="p">[</span><span class="nx">r</span><span class="p">]</span><span class="o">||</span><span class="kd">function</span><span class="p">(){</span>
-  <span class="p">(</span><span class="nx">i</span><span class="p">[</span><span class="nx">r</span><span class="p">].</span><span class="nx">q</span><span class="o">=</span><span class="nx">i</span><span class="p">[</span><span class="nx">r</span><span class="p">].</span><span class="nx">q</span><span class="o">||</span><span class="p">[]).</span><span class="nx">push</span><span class="p">(</span><span class="nx">arguments</span><span class="p">)},</span><span class="nx">i</span><span class="p">[</span><span class="nx">r</span><span class="p">].</span><span class="nx">l</span><span class="o">=</span><span class="mi">1</span><span class="o">*</span><span class="k">new</span> <span class="nb">Date</span><span class="p">();</span><span class="nx">a</span><span class="o">=</span><span class="nx">s</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="nx">o</span><span class="p">),</span>
-  <span class="nx">m</span><span class="o">=</span><span class="nx">s</span><span class="p">.</span><span class="nx">getElementsByTagName</span><span class="p">(</span><span class="nx">o</span><span class="p">)[</span><span class="mi">0</span><span class="p">];</span><span class="nx">a</span><span class="p">.</span><span class="nx">async</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span><span class="nx">a</span><span class="p">.</span><span class="nx">src</span><span class="o">=</span><span class="nx">g</span><span class="p">;</span><span class="nx">m</span><span class="p">.</span><span class="nx">parentNode</span><span class="p">.</span><span class="nx">insertBefore</span><span class="p">(</span><span class="nx">a</span><span class="p">,</span><span class="nx">m</span><span class="p">)</span>
-  <span class="p">})(</span><span class="nb">window</span><span class="p">,</span><span class="nb">document</span><span class="p">,</span><span class="s1">'script'</span><span class="p">,</span><span class="s1">'//www.google-analytics.com/analytics.js'</span><span class="p">,</span><span class="s1">'ga'</span><span class="p">);</span>
+<h3 id="xeory---february29">【Xeoryカスタマイズ】スマホ表示時の妙な隙間が気になるので修正  | February29</h3>
+<p><a href="http://feb29.org/xeory-customise-mobile-display.html">http://feb29.org/xeory-customise-mobile-display.html</a></p>
 
-  <span class="nx">ga</span><span class="p">(</span><span class="s1">'create'</span><span class="p">,</span> <span class="s1">'UA-xxxxxxxx-x'</span><span class="p">,</span> <span class="s1">'auto'</span><span class="p">);</span>
-  <span class="nx">ga</span><span class="p">(</span><span class="s1">'send'</span><span class="p">,</span> <span class="s1">'pageview'</span><span class="p">);</span>
-<span class="p">}</span>
-<span class="nt">&lt;/script&gt;</span>
-<span class="c">&lt;!-- googleAnalytics end--&gt;</span>
-</pre></td></tr></tbody></table>
-</div>
+<p>カスタマイズするときは、子テンプレートを作ろうという記事。 <br />
+この記事を読んで、別途style.cssを作成しました。</p>
 
-<p>if分で囲むと仮にマルっとコピペされたときに、
-location.hostnameがコピペ先のホストとなるため、
-トラッキングコードが動かなくなり、コピペ先からの誤ったアクセスでカウントされることを防止することができるとのこと。
-ただ、if文の中をコピーされたら・・・</p>
+<h3 id="wordpressxampp---wordpressorg">ローカルマシンにwordpressをインストールするXAMPPのドメイン変更  | wordpress.org</h3>
+<p><a href="https://ja.forums.wordpress.org/topic/21118">https://ja.forums.wordpress.org/topic/21118</a></p>
+
+<p>PCのローカル上でWordpressを立ち上げて、
+スマホからIPアドレスをURLに指定してアクセスした場合、 <br />
+CSSが読み込まれず、レイアウトの確認ができないので困っていた時に読んだ記事。  </p>
+
+<p>データベース、wp_optionsテーブルの「siteurl」「home」の値が、 <br />
+http://localhost/xxxになってる場合は、http://192.168.x.x/xxxに変更が必要とのこと。 <br />
+css等、この設定のURLパスをもとに設定しているそうです。</p>
+
+<p>「Wordpress管理画面左のサイドメニュー」 → 「一般」の設定内の下記に指定してもOK。 <br />
+WordPress アドレス (URL) <br />
+サイトアドレス (URL)</p>
+
+<p>とりあえず、環境構築はここまで。</p>
+
 
 		    </div>
 		</div>
