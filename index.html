@@ -78,6 +78,80 @@
             <!-- blog.erbと共有 start -->
   <div class="content">
     <div class="content-head">
+      <a href="/blog/2015/07/26/1.html">heroku向け、Javaアプリのローカル環境構築</a>
+    </div>
+    <div class="content-date">
+      <div alt="f303" class="genericon genericon-time" title="genericon-time"></div>
+      <span>2015/07/26 19:11</span>
+    </div>
+    <div class="content-tages">
+      <div alt="f302" class="genericon genericon-tag top-mg" title="genericon-tag"></div>
+            <span class="tag"><a href="/blog/tags/github.html">github</a></span>
+            <span class="tag"><a href="/blog/tags/heroku.html">heroku</a></span>
+            <span class="tag"><a href="/blog/tags/eclipse.html">eclipse</a></span>
+    </div>
+
+    <div class="content-main">
+      <!-- use article.summary(250) if you have Nokogiri available to show just
+           the first 250 characters -->
+           <p>Rubyとか仕事で使わないし、すぐ忘れちゃうよね？っていうJavaプログラマが、
+heroku向けにJavaアプリを公開するにために、
+ローカルの環境構築をしてみました。</p>
+
+<p>その時に参考にしたサイトの備忘録。
+
+      <!--<p>Rubyとか仕事で使わないし、すぐ忘れちゃうよね？っていうJavaプログラマが、
+heroku向けにJavaアプリを公開するにために、
+ローカルの環境構築をしてみました。</p>
+
+<p>その時に参考にしたサイトの備忘録。
+</p>
+
+<h2 id="herokudeploy">herokuまでのDeployの流れ</h2>
+<p>Javaだから、コード補完使いたいし、Eclipseだよね。</p>
+
+<p>ローカルの環境構築にあたり、ソース管理もしたいよね。</p>
+
+<p>仕事でSVNでもGit使いたいよね。</p>
+
+<p>GithubにPushしたタイミングでherokuに自動でDeployされたら良いよね。</p>
+
+<p>といわけで、普段、Gitとも無縁なExcel駆動開発エンジニアが目指した最小の構図は下記の通り。
+<img class="pure-img" src="https://farm1.staticflickr.com/274/19398501153_cdca8357cb_z_d.jpg" title="herokuAndGithub" alt="herokuAndGithub" /></p>
+
+<h2 id="web">参考にしたWebサイト</h2>
+
+<h3 id="herokutemplate-java-jaxrs--githubcom">heroku/template-java-jaxrs | github.com</h3>
+<p><a href="https://github.com/heroku/template-java-jaxrs">https://github.com/heroku/template-java-jaxrs</a></p>
+
+<p>バックエンドをJavaのApiで作成して、クライアントサイドでJsonでデータを受け取る形で作りたかったため、
+本テンプレートを使ってみました。</p>
+
+<p>すぐに、Read Me にも書いていますが、maven使うので事前にインストールしておく必要があります。</p>
+
+<h3 id="eclipseegitgithub--qiitacom">EclipseとEGitでGithubのリポジトリを扱う | qiita.com</h3>
+<p><a href="http://qiita.com/t-kashima/items/251acd9ce70ce8929836">http://qiita.com/t-kashima/items/251acd9ce70ce8929836</a></p>
+
+<p>Eclipseを使おうということで、Githubと連携できるようにEGitを入れました。</p>
+
+<h3 id="eclipse--techscorecom">4. Eclipseとの連携 | techscore.com</h3>
+<p><a href="www.techscore.com/tech/Java/ApacheJakarta/Maven/4/">http://www.techscore.com/tech/Java/ApacheJakarta/Maven/4/</a></p>
+
+<p>今回使ったテンプレートはmavenを使っているので、Eclipse上の設定をするのに参考にしました。</p>
+
+<h3 id="herokugithubheroku--kayakugurigithubio">[Heroku]githubから自動でherokuにデプロイ | kayakuguri.github.io</h3>
+<p><a href="http://kayakuguri.github.io/blog/2015/02/10/heroku-github-sync/">http://kayakuguri.github.io/blog/2015/02/10/heroku-github-sync/</a></p>
+
+<p>これ見たら、とっても簡単に自動でDeployできるようになりました。
+感激です。</p>
+
+-->
+    </div>
+  </div>
+  <!-- blog.erbと共有 end -->
+  <!-- blog.erbと共有 start -->
+  <div class="content">
+    <div class="content-head">
       <a href="/blog/2015/03/13/1.html">ローカルにWordpressを構築してみた</a>
     </div>
     <div class="content-date">
@@ -481,79 +555,9 @@ facebookの公式サイトをサラッと読むと
     </div>
   </div>
   <!-- blog.erbと共有 end -->
-  <!-- blog.erbと共有 start -->
-  <div class="content">
-    <div class="content-head">
-      <a href="/blog/2015/01/12/1.html">ブログを書くためのマークダウン記法まとめ</a>
-    </div>
-    <div class="content-date">
-      <div alt="f303" class="genericon genericon-time" title="genericon-time"></div>
-      <span>2015/01/12 13:24</span>
-    </div>
-    <div class="content-tages">
-      <div alt="f302" class="genericon genericon-tag top-mg" title="genericon-tag"></div>
-            <span class="tag"><a href="/blog/tags/middleman.html">Middleman</a></span>
-    </div>
-
-    <div class="content-main">
-      <!-- use article.summary(250) if you have Nokogiri available to show just
-           the first 250 characters -->
-           <p>初回投稿になるので、ブログ記事を投稿するにあたり必要な
-マークダウン記法について纏めようと思います。
-
-      <!--<p>初回投稿になるので、ブログ記事を投稿するにあたり必要な
-マークダウン記法について纏めようと思います。
-</p>
-
-<h2 id="section">前提</h2>
-<p>このブログでも利用しているMiddlemanは
-デフォルトでMarkdownパーサーとしてKaramdownが設定されています。</p>
-
-<h2 id="section-1">見出し</h2>
-<p>見出しを記載する場合、 # を見出しの前に記載する。#の数と見出しの数は一致する。
-&lt;h3&gt;の場合、### と記載する。</p>
-
-<h2 id="section-2">改行</h2>
-<p>半角スペース2つ以上つなげると改行になる。</p>
-
-<h2 id="section-3">強調</h2>
-<p>太字の場合、文言を** か __で囲む。
-イタリック体の場合、文言を* か _で囲む。</p>
-
-<h2 id="section-4">リスト</h2>
-<p>リストを示す場合は、 <strong>リストの上部に空行をあけて</strong>、*, -, +のどれかを入力し、スペース、またはタブを挿入する。</p>
-
-<h2 id="section-5">罫線</h2>
-<p><strong>上部に空行をあけて</strong>、3つ以上の*, -, _のみで行を作成する。</p>
-
-<h2 id="section-6">リンク</h2>
-<p>角括弧で文言、丸括弧でURLを囲む。
-例) [chinohara(このブログサイト)](http://chinohara.github.io/)</p>
-
-<h2 id="section-7">コード</h2>
-<p>コードを記載する場合、~~~ でコードの上下を囲む。
-上部の ~~~ 後に"ruby" 等を指定してハイライトを設定する。</p>
-
-<div class="highlight ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
-2
-3
-4</pre></td><td class="code"><pre><span class="n">set</span> <span class="ss">:markdown_engine</span><span class="p">,</span> <span class="ss">:redcarpet</span>
-<span class="k">def</span> <span class="nf">my_cool_method</span><span class="p">(</span><span class="n">message</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="n">message</span>
-<span class="k">end</span>
-</pre></td></tr></tbody></table>
-</div>
-
-<h2 id="section-8">エスケープ</h2>
-<p>エスケープさせたい場合は、\(バックシュラッシュ) or &lt;div&gt;&lt;/div&gt;ダグで囲む。</p>
-
-<p>とりあえず、コレくらい知っておけば、いいのかな。。。</p>
-
--->
-    </div>
-  </div>
-  <!-- blog.erbと共有 end -->
 <div class="pagenate">
+    Page 1 of 2
+      <a href="/page/2/"><div alt="f501" class="genericon genericon-rightarrow" title="genericon-rightarrow"></div></a>
 </div>
 
 
@@ -583,6 +587,12 @@ facebookの公式サイトをサラッと読むと
                 Recent Articles
               </div>
                 <div class="resent-date">
+                  <span>2015/07/26 19:11</span>
+                </div>
+                <div class="sub-main">
+                  <a href="/blog/2015/07/26/1.html">heroku向け、Javaアプリのローカル環境構築</a>
+                </div>
+                <div class="resent-date">
                   <span>2015/03/13 00:56</span>
                 </div>
                 <div class="sub-main">
@@ -605,12 +615,6 @@ facebookの公式サイトをサラッと読むと
                 </div>
                 <div class="sub-main">
                   <a href="/blog/2015/02/04/1.html">Google Analyticsを設置してみた</a>
-                </div>
-                <div class="resent-date">
-                  <span>2015/01/26 23:53</span>
-                </div>
-                <div class="sub-main">
-                  <a href="/blog/2015/01/26/1.html">動的URLでシェアボタンを配置</a>
                 </div>
             </div>
             <div class="subarea">
@@ -635,13 +639,22 @@ facebookの公式サイトをサラッと読むと
                 <div class="sub-main">
                   <a href="/blog/tags/wordpress.html">wordpress (1)</a>
                 </div>
+                <div class="sub-main">
+                  <a href="/blog/tags/github.html">github (1)</a>
+                </div>
+                <div class="sub-main">
+                  <a href="/blog/tags/heroku.html">heroku (1)</a>
+                </div>
+                <div class="sub-main">
+                  <a href="/blog/tags/eclipse.html">eclipse (1)</a>
+                </div>
             </div>
             <div class="subarea">
               <div class="sub-head">
                 By Year
               </div>
                 <div class="sub-main">
-                  <a href="/blog/2015.html">2015 (6)</a>
+                  <a href="/blog/2015.html">2015 (7)</a>
                 </div>
             </div>
           </aside>

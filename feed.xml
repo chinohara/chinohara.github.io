@@ -5,10 +5,66 @@
   <id>http://blog.url.com/blog</id>
   <link href="http://blog.url.com/blog"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2015-03-13T00:56:00+09:00</updated>
+  <updated>2015-07-26T19:11:00+09:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>heroku向け、Javaアプリのローカル環境構築</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2015/07/26/1.html"/>
+    <id>http://blog.url.com/blog/2015/07/26/1.html</id>
+    <published>2015-07-26T19:11:00+09:00</published>
+    <updated>2015-07-26T22:03:50+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Rubyとか仕事で使わないし、すぐ忘れちゃうよね？っていうJavaプログラマが、
+heroku向けにJavaアプリを公開するにために、
+ローカルの環境構築をしてみました。&lt;/p&gt;
+
+&lt;p&gt;その時に参考にしたサイトの備忘録。
+&lt;/p&gt;
+
+&lt;h2 id="herokudeploy"&gt;herokuまでのDeployの流れ&lt;/h2&gt;
+&lt;p&gt;Javaだから、コード補完使いたいし、Eclipseだよね。&lt;/p&gt;
+
+&lt;p&gt;ローカルの環境構築にあたり、ソース管理もしたいよね。&lt;/p&gt;
+
+&lt;p&gt;仕事でSVNでもGit使いたいよね。&lt;/p&gt;
+
+&lt;p&gt;GithubにPushしたタイミングでherokuに自動でDeployされたら良いよね。&lt;/p&gt;
+
+&lt;p&gt;といわけで、普段、Gitとも無縁なExcel駆動開発エンジニアが目指した最小の構図は下記の通り。
+&lt;img class="pure-img" src="https://farm1.staticflickr.com/274/19398501153_cdca8357cb_z_d.jpg" title="herokuAndGithub" alt="herokuAndGithub" /&gt;&lt;/p&gt;
+
+&lt;h2 id="web"&gt;参考にしたWebサイト&lt;/h2&gt;
+
+&lt;h3 id="herokutemplate-java-jaxrs--githubcom"&gt;heroku/template-java-jaxrs | github.com&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/heroku/template-java-jaxrs"&gt;https://github.com/heroku/template-java-jaxrs&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;バックエンドをJavaのApiで作成して、クライアントサイドでJsonでデータを受け取る形で作りたかったため、
+本テンプレートを使ってみました。&lt;/p&gt;
+
+&lt;p&gt;すぐに、Read Me にも書いていますが、maven使うので事前にインストールしておく必要があります。&lt;/p&gt;
+
+&lt;h3 id="eclipseegitgithub--qiitacom"&gt;EclipseとEGitでGithubのリポジトリを扱う | qiita.com&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://qiita.com/t-kashima/items/251acd9ce70ce8929836"&gt;http://qiita.com/t-kashima/items/251acd9ce70ce8929836&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Eclipseを使おうということで、Githubと連携できるようにEGitを入れました。&lt;/p&gt;
+
+&lt;h3 id="eclipse--techscorecom"&gt;4. Eclipseとの連携 | techscore.com&lt;/h3&gt;
+&lt;p&gt;&lt;a href="www.techscore.com/tech/Java/ApacheJakarta/Maven/4/"&gt;http://www.techscore.com/tech/Java/ApacheJakarta/Maven/4/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;今回使ったテンプレートはmavenを使っているので、Eclipse上の設定をするのに参考にしました。&lt;/p&gt;
+
+&lt;h3 id="herokugithubheroku--kayakugurigithubio"&gt;[Heroku]githubから自動でherokuにデプロイ | kayakuguri.github.io&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://kayakuguri.github.io/blog/2015/02/10/heroku-github-sync/"&gt;http://kayakuguri.github.io/blog/2015/02/10/heroku-github-sync/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;これ見たら、とっても簡単に自動でDeployできるようになりました。
+感激です。&lt;/p&gt;
+
+</content>
+  </entry>
   <entry>
     <title>ローカルにWordpressを構築してみた</title>
     <link rel="alternate" href="http://blog.url.com/blog/2015/03/13/1.html"/>
@@ -338,65 +394,6 @@ facebookの公式サイトをサラッと読むと
 
 &lt;h2 id="url"&gt;シェアボタン設置時に参考にしたURL&lt;/h2&gt;
 &lt;p&gt;&lt;a href="http://qiita.com/shuntaro_tamura/items/26f8186d4111364918eb"&gt;各種SNSへのシェアボタン設置方法まとめ&lt;/a&gt;&lt;/p&gt;
-
-</content>
-  </entry>
-  <entry>
-    <title>ブログを書くためのマークダウン記法まとめ</title>
-    <link rel="alternate" href="http://blog.url.com/blog/2015/01/12/1.html"/>
-    <id>http://blog.url.com/blog/2015/01/12/1.html</id>
-    <published>2015-01-12T13:24:00+09:00</published>
-    <updated>2015-01-27T00:37:09+09:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;初回投稿になるので、ブログ記事を投稿するにあたり必要な
-マークダウン記法について纏めようと思います。
-&lt;/p&gt;
-
-&lt;h2 id="section"&gt;前提&lt;/h2&gt;
-&lt;p&gt;このブログでも利用しているMiddlemanは
-デフォルトでMarkdownパーサーとしてKaramdownが設定されています。&lt;/p&gt;
-
-&lt;h2 id="section-1"&gt;見出し&lt;/h2&gt;
-&lt;p&gt;見出しを記載する場合、 # を見出しの前に記載する。#の数と見出しの数は一致する。
-&amp;lt;h3&amp;gt;の場合、### と記載する。&lt;/p&gt;
-
-&lt;h2 id="section-2"&gt;改行&lt;/h2&gt;
-&lt;p&gt;半角スペース2つ以上つなげると改行になる。&lt;/p&gt;
-
-&lt;h2 id="section-3"&gt;強調&lt;/h2&gt;
-&lt;p&gt;太字の場合、文言を** か __で囲む。
-イタリック体の場合、文言を* か _で囲む。&lt;/p&gt;
-
-&lt;h2 id="section-4"&gt;リスト&lt;/h2&gt;
-&lt;p&gt;リストを示す場合は、 &lt;strong&gt;リストの上部に空行をあけて&lt;/strong&gt;、*, -, +のどれかを入力し、スペース、またはタブを挿入する。&lt;/p&gt;
-
-&lt;h2 id="section-5"&gt;罫線&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;上部に空行をあけて&lt;/strong&gt;、3つ以上の*, -, _のみで行を作成する。&lt;/p&gt;
-
-&lt;h2 id="section-6"&gt;リンク&lt;/h2&gt;
-&lt;p&gt;角括弧で文言、丸括弧でURLを囲む。
-例) [chinohara(このブログサイト)](http://chinohara.github.io/)&lt;/p&gt;
-
-&lt;h2 id="section-7"&gt;コード&lt;/h2&gt;
-&lt;p&gt;コードを記載する場合、~~~ でコードの上下を囲む。
-上部の ~~~ 後に"ruby" 等を指定してハイライトを設定する。&lt;/p&gt;
-
-&lt;div class="highlight ruby"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
-2
-3
-4&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="n"&gt;set&lt;/span&gt; &lt;span class="ss"&gt;:markdown_engine&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ss"&gt;:redcarpet&lt;/span&gt;
-&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;my_cool_method&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;message&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-  &lt;span class="nb"&gt;puts&lt;/span&gt; &lt;span class="n"&gt;message&lt;/span&gt;
-&lt;span class="k"&gt;end&lt;/span&gt;
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;h2 id="section-8"&gt;エスケープ&lt;/h2&gt;
-&lt;p&gt;エスケープさせたい場合は、\(バックシュラッシュ) or &amp;lt;div&amp;gt;&amp;lt;/div&amp;gt;ダグで囲む。&lt;/p&gt;
-
-&lt;p&gt;とりあえず、コレくらい知っておけば、いいのかな。。。&lt;/p&gt;
 
 </content>
   </entry>

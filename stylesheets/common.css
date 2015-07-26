@@ -222,6 +222,7 @@ body {
 }
 
 .fb-share-button {
+	margin: 0px 0px 0px 100px;
 	float : left ;
 	width: 130px;
  	height: 20px;
