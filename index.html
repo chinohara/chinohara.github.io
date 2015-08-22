@@ -31,10 +31,10 @@
     <!-- Include Sidr bundled CSS theme -->
     <!--<link rel="stylesheet" href="css/sidr/jquery.sidr.dark.css">-->
     <!--<link href="/stylesheets/pure.css" rel="stylesheet" type="text/css" media="all" />-->
-    <link href="/stylesheets/sidr/jquery.sidr.dark.css" rel="stylesheet" type="text/css" media="all" />
     <link href="/stylesheets/genericons/genericons.css" rel="stylesheet" type="text/css" media="all" />
     <link href="/stylesheets/common.css" rel="stylesheet" type="text/css" media="all" />
     <link href="/stylesheets/modules/syntax_highlight.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="/stylesheets/app.css" rel="stylesheet" type="text/css" media="all" />
 
     <title>Chinohara's Page</title>
     <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/blog/feed.xml" />
@@ -54,28 +54,41 @@
     <!-- googleAnalytics end-->
   </head>
   <body>
-    <div class="header">
-      <div class="home-menu pure-menu pure-menu-open pure-menu-horizontal">
-          <a class="pure-menu-heading mark" href="/index.html"><div class="container shape"></div></a>
-          <ul>
-              <li>Chinohara's page</li>
-              <li class="last-right"><a id="right-menu" href="#right-menu" class="genericon genericon-menu last-right"></a></li>
-          </ul>
-      </div>
-      <div id="sidr-right">
-        <ul>
-          <li><a href="/index.html">Home</a></li>
-          <li><a href="/me.html">About Me</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="pure-g">
-      <div id="main" role="main">
-        <div class="sub-header pure-u-1">
-          <div class="subtitle-m">Weekend activity log.</div>
-        </div>
-        <div class="pure-u-1 pure-u-sm-2-3">
-            <!-- blog.erbと共有 start -->
+    <div class="pure-container" data-effect="pure-effect-fade">  
+      <!--▼トグルボタン▼-->
+      <input type="checkbox" id="pure-toggle-right" class="pure-toggle" data-toggle="right"/>
+      <label class="pure-toggle-label" for="pure-toggle-right" data-toggle-label="right"><span class="pure-toggle-icon"></span></label>
+      <!--▲トグルボタン▲-->
+            
+      <!--▼ドロワーメニュー▼-->
+      <nav class="pure-drawer" data-position="right">
+        <div class="row collapse">
+            <div class="large-12 columns">
+                <ul class="nav-primary">
+                    <li><a href="/index.html">Home</a></li>
+                      <li><a href="/me.html">About Me</a></li>
+                  </ul> 
+              </div>
+          </div>
+      </nav>
+      <!--▲ドロワーメニュー▲-->
+            
+      <!--▼コンテンツ▼-->
+      <div class="pure-pusher-container">
+          <div class="pure-pusher">
+            <div class="header">
+              <div class="home-menu pure-menu pure-menu-open pure-menu-horizontal">
+                  <a class="pure-menu-heading mark" href="/index.html"><div class="container shape"></div></a>
+                  Chinohara's page
+              </div>
+            </div>
+            <div class="pure-g">
+              <div id="main" role="main">
+                <div class="sub-header pure-u-1">
+                  <div class="subtitle-m">Weekend activity log.</div>
+                </div>
+                <div class="pure-u-1 pure-u-sm-2-3">
+                    <!-- blog.erbと共有 start -->
   <div class="content">
     <div class="content-head">
       <a href="/blog/2015/07/26/1.html">heroku向け、Javaアプリのローカル環境構築</a>
@@ -565,107 +578,115 @@ facebookの公式サイトをサラッと読むと
     
 
 
-        </div>
-        <div class="sidebar pure-u-1 pure-u-sm-1-3">
-          <!--<div class="pure-g">-->
-          <aside>
-            <div class="subarea">
-              <h5>スポンサーリンク</h5>
-              <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                <!-- chinohara's blog sidebar -->
-                <ins class="adsbygoogle"
-                     style="display:block"
-                     data-ad-client="ca-pub-8958604100285376"
-                     data-ad-slot="7544079046"
-                     data-ad-format="auto"></ins>
-                <script>
-                (adsbygoogle = window.adsbygoogle || []).push({});
-              </script>
-            </div>
-            <div class="subarea">
-              <div class="sub-head">
-                Recent Articles
+                </div>
+                <div class="sidebar pure-u-1 pure-u-sm-1-3">
+                  <!--<div class="pure-g">-->
+                  <aside>
+                    <div class="subarea">
+                      <h5>スポンサーリンク</h5>
+                      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                        <!-- chinohara's blog sidebar -->
+                        <ins class="adsbygoogle"
+                             style="display:block"
+                             data-ad-client="ca-pub-8958604100285376"
+                             data-ad-slot="7544079046"
+                             data-ad-format="auto"></ins>
+                        <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                      </script>
+                    </div>
+                    <div class="subarea">
+                      <div class="sub-head">
+                        Recent Articles
+                      </div>
+                        <div class="resent-date">
+                          <span>2015/07/26 19:11</span>
+                        </div>
+                        <div class="sub-main">
+                          <a href="/blog/2015/07/26/1.html">heroku向け、Javaアプリのローカル環境構築</a>
+                        </div>
+                        <div class="resent-date">
+                          <span>2015/03/13 00:56</span>
+                        </div>
+                        <div class="sub-main">
+                          <a href="/blog/2015/03/13/1.html">ローカルにWordpressを構築してみた</a>
+                        </div>
+                        <div class="resent-date">
+                          <span>2015/03/03 01:05</span>
+                        </div>
+                        <div class="sub-main">
+                          <a href="/blog/2015/03/03/1.html">非デザイナーがデザインする時に見た方が良い書籍、webサイト</a>
+                        </div>
+                        <div class="resent-date">
+                          <span>2015/02/09 23:42</span>
+                        </div>
+                        <div class="sub-main">
+                          <a href="/blog/2015/02/09/1.html">Google Adsenseの申請をしてみた</a>
+                        </div>
+                        <div class="resent-date">
+                          <span>2015/02/04 01:49</span>
+                        </div>
+                        <div class="sub-main">
+                          <a href="/blog/2015/02/04/1.html">Google Analyticsを設置してみた</a>
+                        </div>
+                    </div>
+                    <div class="subarea">
+                      <div class="sub-head">
+                        Tags
+                      </div>
+                        <div class="sub-main">
+                          <a href="/blog/tags/middleman.html">Middleman (1)</a>
+                        </div>
+                        <div class="sub-main">
+                          <a href="/blog/tags/sns.html">SNS (1)</a>
+                        </div>
+                        <div class="sub-main">
+                          <a href="/blog/tags/google-analytics.html">Google Analytics (1)</a>
+                        </div>
+                        <div class="sub-main">
+                          <a href="/blog/tags/google-adsense.html">Google Adsense (1)</a>
+                        </div>
+                        <div class="sub-main">
+                          <a href="/blog/tags/design.html">Design (1)</a>
+                        </div>
+                        <div class="sub-main">
+                          <a href="/blog/tags/wordpress.html">wordpress (1)</a>
+                        </div>
+                        <div class="sub-main">
+                          <a href="/blog/tags/github.html">Github (1)</a>
+                        </div>
+                        <div class="sub-main">
+                          <a href="/blog/tags/heroku.html">Heroku (1)</a>
+                        </div>
+                        <div class="sub-main">
+                          <a href="/blog/tags/eclipse.html">Eclipse (1)</a>
+                        </div>
+                    </div>
+                    <div class="subarea">
+                      <div class="sub-head">
+                        By Year
+                      </div>
+                        <div class="sub-main">
+                          <a href="/blog/2015.html">2015 (7)</a>
+                        </div>
+                    </div>
+                  </aside>
+                  <!--</div>-->
+                </div>
               </div>
-                <div class="resent-date">
-                  <span>2015/07/26 19:11</span>
-                </div>
-                <div class="sub-main">
-                  <a href="/blog/2015/07/26/1.html">heroku向け、Javaアプリのローカル環境構築</a>
-                </div>
-                <div class="resent-date">
-                  <span>2015/03/13 00:56</span>
-                </div>
-                <div class="sub-main">
-                  <a href="/blog/2015/03/13/1.html">ローカルにWordpressを構築してみた</a>
-                </div>
-                <div class="resent-date">
-                  <span>2015/03/03 01:05</span>
-                </div>
-                <div class="sub-main">
-                  <a href="/blog/2015/03/03/1.html">非デザイナーがデザインする時に見た方が良い書籍、webサイト</a>
-                </div>
-                <div class="resent-date">
-                  <span>2015/02/09 23:42</span>
-                </div>
-                <div class="sub-main">
-                  <a href="/blog/2015/02/09/1.html">Google Adsenseの申請をしてみた</a>
-                </div>
-                <div class="resent-date">
-                  <span>2015/02/04 01:49</span>
-                </div>
-                <div class="sub-main">
-                  <a href="/blog/2015/02/04/1.html">Google Analyticsを設置してみた</a>
-                </div>
             </div>
-            <div class="subarea">
-              <div class="sub-head">
-                Tags
-              </div>
-                <div class="sub-main">
-                  <a href="/blog/tags/middleman.html">Middleman (1)</a>
-                </div>
-                <div class="sub-main">
-                  <a href="/blog/tags/sns.html">SNS (1)</a>
-                </div>
-                <div class="sub-main">
-                  <a href="/blog/tags/google-analytics.html">Google Analytics (1)</a>
-                </div>
-                <div class="sub-main">
-                  <a href="/blog/tags/google-adsense.html">Google Adsense (1)</a>
-                </div>
-                <div class="sub-main">
-                  <a href="/blog/tags/design.html">Design (1)</a>
-                </div>
-                <div class="sub-main">
-                  <a href="/blog/tags/wordpress.html">wordpress (1)</a>
-                </div>
-                <div class="sub-main">
-                  <a href="/blog/tags/github.html">Github (1)</a>
-                </div>
-                <div class="sub-main">
-                  <a href="/blog/tags/heroku.html">Heroku (1)</a>
-                </div>
-                <div class="sub-main">
-                  <a href="/blog/tags/eclipse.html">Eclipse (1)</a>
-                </div>
-            </div>
-            <div class="subarea">
-              <div class="sub-head">
-                By Year
-              </div>
-                <div class="sub-main">
-                  <a href="/blog/2015.html">2015 (7)</a>
-                </div>
-            </div>
-          </aside>
-          <!--</div>-->
-        </div>
+            <div class="footer">
+              <footer>
+               <p>&copy; 2015 Copyright  by Chinohara's page</p>
+              </footer>
+            </div>  
+          </div>
       </div>
-    </div>
-    <div class="footer">
-      <footer>
-       <p>&copy; 2015 Copyright  by Chinohara's page</p>
-      </footer>
+      <!--▲コンテンツ▲-->
+            
+      <!--▼コンテンツオーバーレイ▼-->
+      <label class="pure-overlay" for="pure-toggle-right" data-overlay="right"></label>
+      <!--▲コンテンツオーバーレイ▲--> 
     </div>
     <!--Ptengine-->
     <script type="text/javascript">
@@ -681,5 +702,20 @@ facebookの公式サイトをサラッと読むと
         s.parentNode.insertBefore(atag, s);s.parentNode.insertBefore(stag, s);
       })();
     </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
   </body>
 </html>
