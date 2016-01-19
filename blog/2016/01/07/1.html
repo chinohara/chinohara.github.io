@@ -36,7 +36,7 @@
     <link href="/stylesheets/modules/syntax_highlight.css" rel="stylesheet" type="text/css" media="all" />
     <link href="/stylesheets/app.css" rel="stylesheet" type="text/css" media="all" />
 
-    <title>Chinohara's Page</title>
+    <title>Chinohara's Page - tumblrを初めてカスタマイズした</title>
     <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/blog/feed.xml" />
 
     <!-- googleAnalytics start-->
@@ -88,59 +88,95 @@
                   <div class="subtitle-m">Weekend activity log.</div>
                 </div>
                 <div class="pure-u-1 pure-u-sm-2-3">
-                  <div class="year-tags-main">
-  <div class="year-tags-header">Archive for
-      2015
-  </div>
+                  
+		<div class="content">
+		    <div class="content-head">
+		      <a href="/blog/2016/01/07/1.html">tumblrを初めてカスタマイズした</a>
+		    </div>
+		    <div class="content-date">
+		      <div alt="f303" class="genericon genericon-time" title="genericon-time"></div>
+		      <span>2016/01/07 12:31</span>
+		    </div>
+		    <div class="content-tages">
+		      <div alt="f302" class="genericon genericon-tag top-mg" title="genericon-tag"></div>
+		            <span class="tag"><a href="/blog/tags/tumblr.html">tumblr</a></span>
+		    </div>
 
-  <!--
-    <p>Page 2 of 2</p>
+		    <div class="content-main">
+		      <p>Webサイト制作にあたり、tumblrをカスタマイズして利用しました。
+参考にしたサイトを以下に纏めます。
+少しコードが書ける人なら、簡単にカスタマイズして、ポートフォリオサイト等作れると思います。
+</p>
 
-      <p><a href="/blog/2015.html">Previous page</a></p>
-   -->
+<h2 id="tumblr">tumblrを採用した理由</h2>
+<p>制作時の要件が、ざっくり以下のようなものでした。</p>
 
-    <div class="year-tags-content">
-      <div class="content-date">
-        <div alt="f303" class="genericon genericon-day" title="genericon-day"></div>
-        <span>2015/02/04</span>
-      </div>
-      <div class="content-tages">
-        <div alt="f302" class="genericon genericon-tag top-mg" title="genericon-tag"></div>
-          <span class="tag"><a href="/blog/tags/google-analytics.html">Google Analytics</a></span>
-      </div>
-      <a href="/blog/2015/02/04/1.html">Google Analyticsを設置してみた</a>
-    </div>
-    <div class="year-tags-content">
-      <div class="content-date">
-        <div alt="f303" class="genericon genericon-day" title="genericon-day"></div>
-        <span>2015/01/26</span>
-      </div>
-      <div class="content-tages">
-        <div alt="f302" class="genericon genericon-tag top-mg" title="genericon-tag"></div>
-          <span class="tag"><a href="/blog/tags/sns.html">SNS</a></span>
-      </div>
-      <a href="/blog/2015/01/26/1.html">動的URLでシェアボタンを配置</a>
-    </div>
-    <div class="year-tags-content">
-      <div class="content-date">
-        <div alt="f303" class="genericon genericon-day" title="genericon-day"></div>
-        <span>2015/01/12</span>
-      </div>
-      <div class="content-tages">
-        <div alt="f302" class="genericon genericon-tag top-mg" title="genericon-tag"></div>
-          <span class="tag"><a href="/blog/tags/middleman.html">Middleman</a></span>
-      </div>
-      <a href="/blog/2015/01/12/1.html">ブログを書くためのマークダウン記法まとめ</a>
-    </div>
+<h3 id="web">ブログではなく、自店舗のwebサイトを持ちたい。</h3>
+<p>無料のブログだと、独自ドメインを持てなかったり、広告が表示されるが、 <br />
+tumblrだと、広告なしで、独自ドメインが設定可能。</p>
 
-  <!-- 
-   -->
+<h3 id="section">自身でもサイトのコンテンツを更新できるようにしたい。</h3>
+<p>スマホのアプリがあるため、PCを普段利用しない人でも
+コンテンツの更新が容易。</p>
 
-  <div class="pagenate">
-        <a href="/blog/2015.html"><div alt="f503" class="genericon genericon-leftarrow" title="genericon-leftarrow"></div></a>
-      Page 2 of 2
-  </div>
-</div>
+<h3 id="section-1">安くサイトを作りたい。</h3>
+<p>基本的に無料。
+コンテンツ更新用の管理機能が既に容易されているため、制作工数が少なく済む。</p>
+
+<h2 id="tumblr-1">tumblrをカスタマイズするにあたり参考にしたサイト</h2>
+
+<h3 id="tumblr-vol2--lig">Tumblrテーマを本気でつくる Vol.2「テーマカスタマイズの独自タグ理解編」 | 株式会社LIG</h3>
+<p><a href="http://liginc.co.jp/web/service/other-service/150831">http://liginc.co.jp/web/service/other-service/150831</a></p>
+
+<p>日本語で独自タグが一通り纏まっている。
+これを見ながら適当なテンプレートのソースと、画面を確認すれば、
+tumblrのHTMLファイルの形式がすぐに分かる。</p>
+
+<h3 id="log--tumblr">ドウジンテイスウ.log — Tumblrの静的ファイル</h3>
+<p><a href="http://sage-t.tumblr.com/post/71187059215/tumblr%E3%81%AE%E9%9D%99%E7%9A%84%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB">http://sage-t.tumblr.com/post/71187059215/tumblr%E3%81%AE%E9%9D%99%E7%9A%84%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB</a></p>
+
+<p>自身のサイトで読み込むJs,CSS,pngファイルをtumblrにアップロードする手順が
+画像付きで纏まっています。初心者の自分でも一発でした。</p>
+
+<h3 id="google-map--web">コピペで簡単！Google Mapをサイトに表示する方法 | Web制作会社スタイル</h3>
+<p><a href="http://www.hp-stylelink.com/news/2013/11/20131119.php">http://www.hp-stylelink.com/news/2013/11/20131119.php</a></p>
+
+<p>tumblrとは直接関係ないですが、
+Google Mapを個別ページに埋め込みたかったので、確認しました。
+本当に簡単に実装できます。</p>
+
+<h3 id="google--">Googleフォームからの投稿を管理者にメールで通知させるスクリプト | こすもっちは行く</h3>
+<p><a href="http://kosumotti.blogspot.jp/2013/03/google.html">http://kosumotti.blogspot.jp/2013/03/google.html</a></p>
+
+<p>お問い合わせフォームにGoogleフォームを利用した際に、
+問い合わせ頂いた内容を管理者にメール通知する仕組みを実装できます。
+超便利です。</p>
+
+<h3 id="tumblrcom----">Tumblrで独自ドメインを設定する方法。[お名前.comの場合]   | かめらとブログ</h3>
+<p><a href="http://camera10.me/blog/tips/tumblr-domain-settings">http://camera10.me/blog/tips/tumblr-domain-settings</a></p>
+
+<p>独自ドメインの設定の仕方Part1
+僕はムームードメイン派なので、Tumblr側の設定手順を参考にさせて頂きました。
+Tunblr側の設定手順が画面キャプチャ付きのがなかなかなかったので、重宝しました。</p>
+
+<h3 id="tumblrcom-----1">Tumblrで独自ドメインを設定する方法。[お名前.comの場合]   | かめらとブログ</h3>
+<p><a href="http://blog.hi-farm.net/2012/03/29/tumblr%E3%81%AB%E7%8B%AC%E8%87%AA%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3%E3%82%92%E8%A8%AD%E5%AE%9A%E3%81%99%E3%82%8B/">http://blog.hi-farm.net/2012/03/29/tumblr%E3%81%AB%E7%8B%AC%E8%87%AA%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3%E3%82%92%E8%A8%AD%E5%AE%9A%E3%81%99%E3%82%8B/</a></p>
+
+<p>独自ドメインの設定の仕方Part2
+こちらはムームードメイン側の設定で参考にさせて頂きました。
+これで独自ドメインもOKです。</p>
+
+
+		    </div>
+		</div>
+	    <!-- SNS Share-->
+	    <div class="shares">
+			<div class="twitter-share-button">
+				<a href="https://twitter.com/share" class="twitter-share-button" data-lang="ja">ツイート</a>
+			</div>
+			<div id="fb-share-button" class="fb-share-button"></div>
+			<div class="end-share-button"></div>
+		</div>
 
                 </div>
                 <div class="sidebar pure-u-1 pure-u-sm-1-3">
@@ -292,3 +328,5 @@
     
   </body>
 </html>
+
+

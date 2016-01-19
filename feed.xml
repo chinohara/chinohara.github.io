@@ -5,28 +5,98 @@
   <id>http://blog.url.com/blog</id>
   <link href="http://blog.url.com/blog"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2015-12-16T08:32:00+09:00</updated>
+  <updated>2016-01-07T12:31:00+09:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
   <entry>
-    <title>Webディレクターになる人にお勧めする書籍</title>
+    <title>tumblrを初めてカスタマイズした</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2016/01/07/1.html"/>
+    <id>http://blog.url.com/blog/2016/01/07/1.html</id>
+    <published>2016-01-07T12:31:00+09:00</published>
+    <updated>2016-01-19T18:17:01+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Webサイト制作にあたり、tumblrをカスタマイズして利用しました。
+参考にしたサイトを以下に纏めます。
+少しコードが書ける人なら、簡単にカスタマイズして、ポートフォリオサイト等作れると思います。
+&lt;/p&gt;
+
+&lt;h2 id="tumblr"&gt;tumblrを採用した理由&lt;/h2&gt;
+&lt;p&gt;制作時の要件が、ざっくり以下のようなものでした。&lt;/p&gt;
+
+&lt;h3 id="web"&gt;ブログではなく、自店舗のwebサイトを持ちたい。&lt;/h3&gt;
+&lt;p&gt;無料のブログだと、独自ドメインを持てなかったり、広告が表示されるが、 &lt;br /&gt;
+tumblrだと、広告なしで、独自ドメインが設定可能。&lt;/p&gt;
+
+&lt;h3 id="section"&gt;自身でもサイトのコンテンツを更新できるようにしたい。&lt;/h3&gt;
+&lt;p&gt;スマホのアプリがあるため、PCを普段利用しない人でも
+コンテンツの更新が容易。&lt;/p&gt;
+
+&lt;h3 id="section-1"&gt;安くサイトを作りたい。&lt;/h3&gt;
+&lt;p&gt;基本的に無料。
+コンテンツ更新用の管理機能が既に容易されているため、制作工数が少なく済む。&lt;/p&gt;
+
+&lt;h2 id="tumblr-1"&gt;tumblrをカスタマイズするにあたり参考にしたサイト&lt;/h2&gt;
+
+&lt;h3 id="tumblr-vol2--lig"&gt;Tumblrテーマを本気でつくる Vol.2「テーマカスタマイズの独自タグ理解編」 | 株式会社LIG&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://liginc.co.jp/web/service/other-service/150831"&gt;http://liginc.co.jp/web/service/other-service/150831&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;日本語で独自タグが一通り纏まっている。
+これを見ながら適当なテンプレートのソースと、画面を確認すれば、
+tumblrのHTMLファイルの形式がすぐに分かる。&lt;/p&gt;
+
+&lt;h3 id="log--tumblr"&gt;ドウジンテイスウ.log — Tumblrの静的ファイル&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://sage-t.tumblr.com/post/71187059215/tumblr%E3%81%AE%E9%9D%99%E7%9A%84%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB"&gt;http://sage-t.tumblr.com/post/71187059215/tumblr%E3%81%AE%E9%9D%99%E7%9A%84%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;自身のサイトで読み込むJs,CSS,pngファイルをtumblrにアップロードする手順が
+画像付きで纏まっています。初心者の自分でも一発でした。&lt;/p&gt;
+
+&lt;h3 id="google-map--web"&gt;コピペで簡単！Google Mapをサイトに表示する方法 | Web制作会社スタイル&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://www.hp-stylelink.com/news/2013/11/20131119.php"&gt;http://www.hp-stylelink.com/news/2013/11/20131119.php&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;tumblrとは直接関係ないですが、
+Google Mapを個別ページに埋め込みたかったので、確認しました。
+本当に簡単に実装できます。&lt;/p&gt;
+
+&lt;h3 id="google--"&gt;Googleフォームからの投稿を管理者にメールで通知させるスクリプト | こすもっちは行く&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://kosumotti.blogspot.jp/2013/03/google.html"&gt;http://kosumotti.blogspot.jp/2013/03/google.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;お問い合わせフォームにGoogleフォームを利用した際に、
+問い合わせ頂いた内容を管理者にメール通知する仕組みを実装できます。
+超便利です。&lt;/p&gt;
+
+&lt;h3 id="tumblrcom----"&gt;Tumblrで独自ドメインを設定する方法。[お名前.comの場合]   | かめらとブログ&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://camera10.me/blog/tips/tumblr-domain-settings"&gt;http://camera10.me/blog/tips/tumblr-domain-settings&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;独自ドメインの設定の仕方Part1
+僕はムームードメイン派なので、Tumblr側の設定手順を参考にさせて頂きました。
+Tunblr側の設定手順が画面キャプチャ付きのがなかなかなかったので、重宝しました。&lt;/p&gt;
+
+&lt;h3 id="tumblrcom-----1"&gt;Tumblrで独自ドメインを設定する方法。[お名前.comの場合]   | かめらとブログ&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://blog.hi-farm.net/2012/03/29/tumblr%E3%81%AB%E7%8B%AC%E8%87%AA%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3%E3%82%92%E8%A8%AD%E5%AE%9A%E3%81%99%E3%82%8B/"&gt;http://blog.hi-farm.net/2012/03/29/tumblr%E3%81%AB%E7%8B%AC%E8%87%AA%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3%E3%82%92%E8%A8%AD%E5%AE%9A%E3%81%99%E3%82%8B/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;独自ドメインの設定の仕方Part2
+こちらはムームードメイン側の設定で参考にさせて頂きました。
+これで独自ドメインもOKです。&lt;/p&gt;
+
+</content>
+  </entry>
+  <entry>
+    <title>Webディレクター入門に向けて読んだ本</title>
     <link rel="alternate" href="http://blog.url.com/blog/2015/12/16/1.html"/>
     <id>http://blog.url.com/blog/2015/12/16/1.html</id>
     <published>2015-12-16T08:32:00+09:00</published>
-    <updated>2015-12-16T08:45:49+09:00</updated>
+    <updated>2016-01-19T18:05:33+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
     <content type="html">&lt;p&gt;Webのディレクションをすることになりそうなので、
-取り急ぎ読みたい本をまとめてみました。
-※後で、コメント更新予定&lt;/p&gt;
+取り急ぎ以下入門書を読んでみました。
+&lt;/p&gt;
 
 &lt;h2 id="section"&gt;参考にした書籍&lt;/h2&gt;
-
-&lt;iframe src="http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;amp;bc1=000000&amp;amp;IS2=1&amp;amp;bg1=FFFFFF&amp;amp;fc1=000000&amp;amp;lc1=0000FF&amp;amp;t=chinohara0a-22&amp;amp;o=9&amp;amp;p=8&amp;amp;l=as4&amp;amp;m=amazon&amp;amp;f=ifr&amp;amp;ref=ss_til&amp;amp;asins=B00MVQY688" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"&gt;&lt;/iframe&gt;
-
-&lt;h3 id="webweb2"&gt;現場のプロが教えるWebディレクションの最新常識　知らないと困るWebデザインの新ルール2&lt;/h3&gt;
 
 &lt;iframe src="http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;amp;bc1=000000&amp;amp;IS2=1&amp;amp;bg1=FFFFFF&amp;amp;fc1=000000&amp;amp;lc1=0000FF&amp;amp;t=chinohara0a-22&amp;amp;o=9&amp;amp;p=8&amp;amp;l=as4&amp;amp;m=amazon&amp;amp;f=ifr&amp;amp;ref=ss_til&amp;amp;asins=B00MIFE718" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"&gt;&lt;/iframe&gt;
 
@@ -249,71 +319,6 @@ Google Adsenseだろうと思い、申請→設置までのフローをメモし
 
 &lt;p&gt;Google Adsenseは表示させる広告を絞れたりできそうなので、この辺も追ってやっていきたいと思います。&lt;/p&gt;
 
-</content>
-  </entry>
-  <entry>
-    <title>Google Analyticsを設置してみた</title>
-    <link rel="alternate" href="http://blog.url.com/blog/2015/02/04/1.html"/>
-    <id>http://blog.url.com/blog/2015/02/04/1.html</id>
-    <published>2015-02-04T01:49:00+09:00</published>
-    <updated>2015-02-04T02:28:15+09:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;Webサービスを運営していく際に、ページビューとかアクセス解析をしてみたいなと思い、
-Google Analyticsを設置するまでに参考にしたページをメモしてみた。
-&lt;/p&gt;
-
-&lt;h2 id="section"&gt;参考にしたページ&lt;/h2&gt;
-
-&lt;h3 id="google--lig"&gt;無料アクセス解析ツールの定番「Googleアナリティクス」の意味と導入方法を知ろう | 株式会社LIG&lt;/h3&gt;
-&lt;p&gt;&lt;a href="http://liginc.co.jp/web/seo/107784"&gt;http://liginc.co.jp/web/seo/107784&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id="google-analytics--stockerjp--diary"&gt;Google Analyticsのコードがコピーされても動かないようにする方法 | Stocker.jp / diary&lt;/h3&gt;
-&lt;p&gt;&lt;a href="http://stocker.jp/diary/google-analytics/"&gt;http://stocker.jp/diary/google-analytics/&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id="section-1"&gt;設置までの概要&lt;/h2&gt;
-
-&lt;h3 id="google"&gt;Googleアナリティクス公式サイト&lt;/h3&gt;
-&lt;p&gt;&lt;a href="http://www.google.com/intl/ja_ALL/analytics/index.html"&gt;http://www.google.com/intl/ja_ALL/analytics/index.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Googleのアカウントを持っている場合は、上記サイトにログイン。 &lt;br /&gt;
-アカウントの登録で、設置するWebサイトのURLを指定。 &lt;br /&gt;
-トラッキングIDの取得。 &lt;br /&gt;
-トラッキングIDを指定した、トラッキングコードをWebサイトに設定。&lt;/p&gt;
-
-&lt;div class="highlight html"&gt;&lt;table style="border-spacing: 0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl" style="text-align: right"&gt;&lt;pre class="lineno"&gt;1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="c"&gt;&amp;lt;!-- googleAnalytics start--&amp;gt;&lt;/span&gt;
-&lt;span class="nt"&gt;&amp;lt;script&amp;gt;&lt;/span&gt;
-&lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;location&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;hostname&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="s2"&gt;"yourpage.com"&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-  &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;i&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="nx"&gt;s&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="nx"&gt;o&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="nx"&gt;g&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="nx"&gt;r&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="nx"&gt;a&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="nx"&gt;m&lt;/span&gt;&lt;span class="p"&gt;){&lt;/span&gt;&lt;span class="nx"&gt;i&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;'GoogleAnalyticsObject'&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nx"&gt;r&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="nx"&gt;i&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="nx"&gt;r&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nx"&gt;i&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="nx"&gt;r&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="o"&gt;||&lt;/span&gt;&lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(){&lt;/span&gt;
-  &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;i&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="nx"&gt;r&lt;/span&gt;&lt;span class="p"&gt;].&lt;/span&gt;&lt;span class="nx"&gt;q&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nx"&gt;i&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="nx"&gt;r&lt;/span&gt;&lt;span class="p"&gt;].&lt;/span&gt;&lt;span class="nx"&gt;q&lt;/span&gt;&lt;span class="o"&gt;||&lt;/span&gt;&lt;span class="p"&gt;[]).&lt;/span&gt;&lt;span class="nx"&gt;push&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;arguments&lt;/span&gt;&lt;span class="p"&gt;)},&lt;/span&gt;&lt;span class="nx"&gt;i&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="nx"&gt;r&lt;/span&gt;&lt;span class="p"&gt;].&lt;/span&gt;&lt;span class="nx"&gt;l&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="k"&gt;new&lt;/span&gt; &lt;span class="nb"&gt;Date&lt;/span&gt;&lt;span class="p"&gt;();&lt;/span&gt;&lt;span class="nx"&gt;a&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nx"&gt;s&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;createElement&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;o&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt;
-  &lt;span class="nx"&gt;m&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nx"&gt;s&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;getElementsByTagName&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;o&lt;/span&gt;&lt;span class="p"&gt;)[&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;];&lt;/span&gt;&lt;span class="nx"&gt;a&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;async&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="nx"&gt;a&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;src&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nx"&gt;g&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="nx"&gt;m&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;parentNode&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;insertBefore&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;a&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="nx"&gt;m&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-  &lt;span class="p"&gt;})(&lt;/span&gt;&lt;span class="nb"&gt;window&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="nb"&gt;document&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="s1"&gt;'script'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="s1"&gt;'//www.google-analytics.com/analytics.js'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="s1"&gt;'ga'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-
-  &lt;span class="nx"&gt;ga&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'create'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;'UA-xxxxxxxx-x'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;'auto'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-  &lt;span class="nx"&gt;ga&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'send'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;'pageview'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;span class="nt"&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
-&lt;span class="c"&gt;&amp;lt;!-- googleAnalytics end--&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;if分で囲むと仮にマルっとコピペされたときに、
-location.hostnameがコピペ先のホストとなるため、
-トラッキングコードが動かなくなり、コピペ先からの誤ったアクセスでカウントされることを防止することができるとのこと。
-ただ、if文の中をコピーされたら・・・&lt;/p&gt;
 </content>
   </entry>
 </feed>
