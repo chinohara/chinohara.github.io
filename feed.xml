@@ -10,20 +10,20 @@
     <name>Blog Author</name>
   </author>
   <entry>
-    <title>tumblrを初めてカスタマイズした</title>
+    <title>Tumblrを初めてカスタマイズした</title>
     <link rel="alternate" href="http://blog.url.com/blog/2016/01/07/1.html"/>
     <id>http://blog.url.com/blog/2016/01/07/1.html</id>
     <published>2016-01-07T12:31:00+09:00</published>
-    <updated>2016-01-19T18:17:01+09:00</updated>
+    <updated>2016-01-19T18:20:18+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;p&gt;Webサイト制作にあたり、tumblrをカスタマイズして利用しました。
+    <content type="html">&lt;p&gt;Webサイト制作にあたり、Tumblrをカスタマイズして利用しました。
 参考にしたサイトを以下に纏めます。
 少しコードが書ける人なら、簡単にカスタマイズして、ポートフォリオサイト等作れると思います。
 &lt;/p&gt;
 
-&lt;h2 id="tumblr"&gt;tumblrを採用した理由&lt;/h2&gt;
+&lt;h2 id="tumblr"&gt;Tumblrを採用した理由&lt;/h2&gt;
 &lt;p&gt;制作時の要件が、ざっくり以下のようなものでした。&lt;/p&gt;
 
 &lt;h3 id="web"&gt;ブログではなく、自店舗のwebサイトを持ちたい。&lt;/h3&gt;
@@ -38,25 +38,25 @@ tumblrだと、広告なしで、独自ドメインが設定可能。&lt;/p&gt;
 &lt;p&gt;基本的に無料。
 コンテンツ更新用の管理機能が既に容易されているため、制作工数が少なく済む。&lt;/p&gt;
 
-&lt;h2 id="tumblr-1"&gt;tumblrをカスタマイズするにあたり参考にしたサイト&lt;/h2&gt;
+&lt;h2 id="tumblr-1"&gt;Tumblrをカスタマイズするにあたり参考にしたサイト&lt;/h2&gt;
 
 &lt;h3 id="tumblr-vol2--lig"&gt;Tumblrテーマを本気でつくる Vol.2「テーマカスタマイズの独自タグ理解編」 | 株式会社LIG&lt;/h3&gt;
 &lt;p&gt;&lt;a href="http://liginc.co.jp/web/service/other-service/150831"&gt;http://liginc.co.jp/web/service/other-service/150831&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;日本語で独自タグが一通り纏まっている。
 これを見ながら適当なテンプレートのソースと、画面を確認すれば、
-tumblrのHTMLファイルの形式がすぐに分かる。&lt;/p&gt;
+TumblrのHTMLファイルの形式がすぐに分かる。&lt;/p&gt;
 
 &lt;h3 id="log--tumblr"&gt;ドウジンテイスウ.log — Tumblrの静的ファイル&lt;/h3&gt;
 &lt;p&gt;&lt;a href="http://sage-t.tumblr.com/post/71187059215/tumblr%E3%81%AE%E9%9D%99%E7%9A%84%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB"&gt;http://sage-t.tumblr.com/post/71187059215/tumblr%E3%81%AE%E9%9D%99%E7%9A%84%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;自身のサイトで読み込むJs,CSS,pngファイルをtumblrにアップロードする手順が
+&lt;p&gt;自身のサイトで読み込むJs,CSS,pngファイルをTumblrにアップロードする手順が
 画像付きで纏まっています。初心者の自分でも一発でした。&lt;/p&gt;
 
 &lt;h3 id="google-map--web"&gt;コピペで簡単！Google Mapをサイトに表示する方法 | Web制作会社スタイル&lt;/h3&gt;
 &lt;p&gt;&lt;a href="http://www.hp-stylelink.com/news/2013/11/20131119.php"&gt;http://www.hp-stylelink.com/news/2013/11/20131119.php&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;tumblrとは直接関係ないですが、
+&lt;p&gt;Tumblrとは直接関係ないですが、
 Google Mapを個別ページに埋め込みたかったので、確認しました。
 本当に簡単に実装できます。&lt;/p&gt;
 
