@@ -5,16 +5,97 @@
   <id>http://blog.url.com/blog</id>
   <link href="http://blog.url.com/blog"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2016-01-07T12:31:00+09:00</updated>
+  <updated>2016-01-23T17:52:00+09:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>Google Analyticsにおける基本的な7つの用語</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2016/01/23/1.html"/>
+    <id>http://blog.url.com/blog/2016/01/23/1.html</id>
+    <published>2016-01-23T17:52:00+09:00</published>
+    <updated>2016-01-24T14:46:48+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;エンジニアでも、アクセス解析したい！ &lt;br /&gt;
+そんなことを思い、Google Analyticsで基本的な指標の見方や、
+いくつかユースケースにおける見方を試してみようと思います。
+&lt;/p&gt;
+
+&lt;p&gt;以下ユースケースを纏めてみたいと思います。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;基本的な指標の確認&lt;/strong&gt;(←本記事はこちら！)&lt;/li&gt;
+  &lt;li&gt;どんな端末、ブラウザからアクセスされたか。&lt;/li&gt;
+  &lt;li&gt;どの地域の人がアクセスしてきたか。&lt;/li&gt;
+  &lt;li&gt;どの年齢層の人がアクセスしてきたか。&lt;/li&gt;
+  &lt;li&gt;どのサイトからアクセスしてきたか。&lt;/li&gt;
+  &lt;li&gt;どのキーワードでアクセスしてきたか。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section"&gt;基本的な指標の確認&lt;/h2&gt;
+&lt;p&gt;基本的な指標とは？と定義するところからですが、
+一旦、Google Analyticsにログインして、表示されるユーザーサマリーに出てくる
+指標の意味を確認していこうと思います。&lt;/p&gt;
+
+&lt;p&gt;この画面をスクロールしていき、(この赤枠部分の日付でレポートの期間を変更できます。)
+&lt;img class="pure-img" src="https://farm2.staticflickr.com/1458/24206612189_d35563e3d5.jpg" title="Google AnalyticsTop1" alt="Google AnalyticsTop1" /&gt;&lt;/p&gt;
+
+&lt;p&gt;ここの赤枠部分の用語解説です。
+&lt;img class="pure-img" src="https://farm2.staticflickr.com/1452/23946226974_09d53a3b0b.jpg" title="Google AnalyticsTop2" alt="Google AnalyticsTop2" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;■セッション&lt;/strong&gt;&lt;br /&gt;
+いわゆる訪問数を示す。ユーザがサイトに訪問してから、離脱するまでの単位。
+1ユーザが複数ページ見た場合、カウントは1。  &lt;br /&gt;
+30分以上置いて、再度訪問するなど、新規セッションとなった場合は、同じユーザでも、新たにカウントされる。
+ECサイトでは集客数にあたる。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;■ユーザー&lt;/strong&gt;&lt;br /&gt;
+訪問した人の単位。何ページ見ても、何回訪問してもカウントは1。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;■ページビュー数&lt;/strong&gt;&lt;br /&gt;
+いわゆるPVを示す。サイト内で何ページ読まれたかという指標。
+例えば、Aさんが2ページ、Bさんが8ページ読んだ場合、PVは10とカウントされる。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;■ページ/セッション&lt;/strong&gt;&lt;br /&gt;
+1訪問あたり、何ページ読んだかという指標。
+ECサイトであれば、下記画面遷移が売上げがたつまでに考えられるので、&lt;br /&gt;
+1ページ等、少ないと改善するべき指標となる。 &lt;br /&gt;
+「商品情報画面」→「カート画面」→「個人情報入力画面」→「確認画面」→「サンキューページ」&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;■平均セッション時間&lt;/strong&gt;&lt;br /&gt;
+そのままの意味で、サイトに滞在している平均時間。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;■直帰率&lt;/strong&gt;&lt;br /&gt;
+最初の1ページを読んで、サイトを離脱してしまう。orブラウザを閉じてしまう人の割合。
+indexページ等、ランディングでこの指標が低いと問題。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;■新規セッション率&lt;/strong&gt;&lt;br /&gt;
+レポート期間内に、サイトを初めて訪れたユーザーの割合。
+例えば全体で100人ユーザーが訪問していたとして、80人が初めてサイトを訪れた場合、
+新規セッション率は80％。&lt;/p&gt;
+
+&lt;h2 id="section-1"&gt;参考にしたページ&lt;/h2&gt;
+
+&lt;h3 id="google21--junichi"&gt;初心者必見！Googleアナリティクスの基本用語21個を覚えよう | ブログマーケッターJUNICHI&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://junichi-manga.com/google-analytics-basic-terms/"&gt;http://junichi-manga.com/google-analytics-basic-terms/
+&lt;/a&gt;
+セッションとユーザの違いなど、図示して示してあり、分かりやすく纏まってました。&lt;/p&gt;
+
+&lt;h3 id="section-2"&gt;ウェブ解析初級講座 : 第2回 ユーザー解析で必ず押さえたい7つのウェブ解析データ | はじめてＷＥＢ&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://hajimeteweb.jp/column/web_analytical/vol2-2.php"&gt;http://hajimeteweb.jp/column/web_analytical/vol2-2.php
+&lt;/a&gt;
+直帰率に関する考察が、初心者の自分としては、ふむふむなるほど！と言った感じでした。&lt;/p&gt;
+
+</content>
+  </entry>
   <entry>
     <title>Tumblrを初めてカスタマイズした</title>
     <link rel="alternate" href="http://blog.url.com/blog/2016/01/07/1.html"/>
     <id>http://blog.url.com/blog/2016/01/07/1.html</id>
     <published>2016-01-07T12:31:00+09:00</published>
-    <updated>2016-01-19T20:57:38+09:00</updated>
+    <updated>2016-01-23T17:38:03+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -167,7 +248,7 @@ heroku向けにJavaアプリを公開するにために、
     <link rel="alternate" href="http://blog.url.com/blog/2015/03/13/1.html"/>
     <id>http://blog.url.com/blog/2015/03/13/1.html</id>
     <published>2015-03-13T00:56:00+09:00</published>
-    <updated>2015-03-26T01:05:42+09:00</updated>
+    <updated>2016-01-23T17:38:08+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -268,57 +349,6 @@ webサイトのデザインに限らず、ポスターとか、招待状とか�
 ここで取得した色を利用することで、素人臭い色の組み合わせを防ぐことができる。&lt;/p&gt;
 
 &lt;p&gt;ほかにも色々見てきましたが、取り急ぎ上記の書籍とサイトにお世話になりました。&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Google Adsenseの申請をしてみた</title>
-    <link rel="alternate" href="http://blog.url.com/blog/2015/02/09/1.html"/>
-    <id>http://blog.url.com/blog/2015/02/09/1.html</id>
-    <published>2015-02-09T23:42:00+09:00</published>
-    <updated>2015-02-10T01:23:01+09:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;無料のブログサイト、Webマガジン、まとめサイト等、
-色々な広告が出ていますが、一般的なWeb広告と言ったら,
-Google Adsenseだろうと思い、申請→設置までのフローをメモしてみた。
-&lt;/p&gt;
-
-&lt;h2 id="section"&gt;そもそもなぜ広告を設置しようと思ったか&lt;/h2&gt;
-&lt;p&gt;広告なんておいたらサイトが見にくくなる。また、
-多大なPVのあるサイトじゃないと、いくらかの収益も見込めない。&lt;/p&gt;
-
-&lt;p&gt;でも、素人が作ったWebサイトでも広告があると、それっぽいWebサイトに見えるかな？w
-と思って設置に至った次第であります。&lt;/p&gt;
-
-&lt;h2 id="section-1"&gt;参考にしたページ&lt;/h2&gt;
-
-&lt;h3 id="google--"&gt;Googleアドセンスの登録申請方法 | アフィリエイトで稼ぐ方法を全部話そうと思う&lt;/h3&gt;
-&lt;p&gt;&lt;a href="http://affiliate150.com/adsense-primary-audit"&gt;http://affiliate150.com/adsense-primary-audit&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id="google---1"&gt;Googleアドセンス登録の方法　２次審査編 | アフィリエイトで稼ぐ方法を全部話そうと思う&lt;/h3&gt;
-&lt;p&gt;&lt;a href="http://affiliate150.com/adsense-second-screening"&gt;http://affiliate150.com/adsense-second-screening&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id="google-adsense-"&gt;Google Adsense の審査の流れ&lt;/h2&gt;
-&lt;p&gt;Google Adsenseの審査は2回あります。&lt;/p&gt;
-
-&lt;p&gt;1次審査はサイトの登録のみで行われる審査。 &lt;br /&gt;
-2次審査はWebサイトに広告の枠を設定した後に行われる審査。　　　&lt;/p&gt;
-
-&lt;p&gt;1次審査は、上記リンクに従って、登録申請をしたところ当日中に
-メールが来ました。　　　&lt;/p&gt;
-
-&lt;p&gt;2次審査は、上記リンクに従って、広告ユニットを登録して、
-生成されるコードをWebサイトにコピーペーストして放置。
-丸1日経ってから、広告が有効化された旨のメールが来ました。&lt;/p&gt;
-
-&lt;h2 id="section-2"&gt;雑感&lt;/h2&gt;
-
-&lt;p&gt;ネットの記事をいくつか読んでいると、2次審査は遅いときは1週間くらいかかる時があるとのこと。
-1次、2次共に1日くらいで完了したので早いほうだったのかもしれない。&lt;/p&gt;
-
-&lt;p&gt;Google Adsenseは表示させる広告を絞れたりできそうなので、この辺も追ってやっていきたいと思います。&lt;/p&gt;
-
 </content>
   </entry>
 </feed>

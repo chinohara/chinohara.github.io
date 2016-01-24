@@ -2880,8 +2880,8 @@ h1, h2, h3, h4, h5, h6 {
   font-style: normal;
   color: #24323d;
   text-rendering: optimizeLegibility;
-  margin-top: 0.2rem;
-  margin-bottom: 0.5rem;
+  margin-top: 3.0rem;
+  margin-bottom: 1.0rem;
   line-height: 1.4; }
 
 h1 {
