@@ -91,6 +91,109 @@
                     <!-- blog.erbと共有 start -->
   <div class="content">
     <div class="content-head">
+      <a href="/blog/2016/01/30/1.html">Google Analyticsで、どのサイトからアクセスしてきた分析する</a>
+    </div>
+    <div class="content-date">
+      <div alt="f303" class="genericon genericon-time" title="genericon-time"></div>
+      <span>2016/01/30 10:49</span>
+    </div>
+    <div class="content-tages">
+      <div alt="f302" class="genericon genericon-tag top-mg" title="genericon-tag"></div>
+            <span class="tag"><a href="/blog/tags/google-analytics.html">Google Analytics</a></span>
+    </div>
+
+    <div class="content-main">
+      <!-- use article.summary(250) if you have Nokogiri available to show just
+           the first 250 characters -->
+           <p>エンジニアでも、アクセス解析したい！ <br />
+引き続き、Google Analyticsを使って行きます。
+今回はどんなサイトからアクセスしてきたか？確認していきます。
+
+      <!--<p>エンジニアでも、アクセス解析したい！ <br />
+引き続き、Google Analyticsを使って行きます。
+今回はどんなサイトからアクセスしてきたか？確認していきます。
+</p>
+
+<ul>
+  <li>基本的な指標の確認</li>
+  <li>どんな端末、ブラウザからアクセスされたか。</li>
+  <li>どの地域の人がアクセスしてきたか。</li>
+  <li>どの年齢層の人がアクセスしてきたか。</li>
+  <li><strong>どのサイトからアクセスしてきたか。</strong>(←本記事はこちら！)</li>
+  <li>どのキーワードでアクセスしてきたか。</li>
+</ul>
+
+<h2 id="section">どのサイトからアクセスしてきたか。</h2>
+<p>「集客」→「サマリー」で表示されるレポートから確認できます。</p>
+
+<p><img class="pure-img" src="https://farm2.staticflickr.com/1639/24700316905_1412d8aa9b.jpg" title="Google AnalyticsTop1" alt="Google AnalyticsTop1" /></p>
+
+<p>アクセスのされ方は以下4種類に分類されます。</p>
+
+<ul>
+  <li>　Organic Search <br />
+GoogleやYahooなどから検索キーワードを指定してアクセス</li>
+  <li>　Social <br />
+FacebookやTwitterなどのソーシャルメディアからのアクセス</li>
+  <li>　Referral <br />
+Social以外のサイトからのアクセス</li>
+  <li>　Direct <br />
+直接URLを指定していたり、ブックマークからのアクセス</li>
+</ul>
+
+<p>SocialからはどのSNSからのアクセスが多いか。
+Referralでは、どのサイトからリンクが張られているか、記事を紹介されたか。
+Directでは、どの記事がユーザに気に入られているか。
+がそれぞれ判断できます。</p>
+
+<h2 id="referral">Referralの注意点</h2>
+<p>「サマリー」から「Referral」を選択すると以下のような画面が表示される。
+胡散臭いURLがちらほら。。。というかほとんど。(このページのようにアクセスの少ないサイトはこうなります。)
+<img class="pure-img" src="https://farm2.staticflickr.com/1565/24073629333_74458e4c4f.jpg" title="Google AnalyticsTop1" alt="Google AnalyticsTop3" /></p>
+
+<p>この胡散臭いURLがリファラースパムです。
+Googleアナリスティックスから、クリックさせることで、海外の通販サイトや、ウイルスを感染させるサイトに
+誘導を狙っています。不用意にクリックしないように。</p>
+
+<p>このような悪意のあるアクセスが多いと、サイトの分析を正しく行えなくなるため、
+フィルターをかけて除外する必要があります。</p>
+
+<p>「アナリスティックス設定」→「フィルター」をクリック。
+フィルターの設定例や、リファラースパムの対象については、以下サイトが参考になるので
+それに基づいて設定していけばOKです。</p>
+
+<h3 id="google--junichi">リファラースパム対策｜Googleアナリティクスでフィルタ設定をする方法 | ブログマーケッターJUNICHI</h3>
+<p><a href="https://junichi-manga.com/referral-spam/">https://junichi-manga.com/referral-spam/</a></p>
+
+<p>リファラースパムは大量にあり、どんどん増えていき、イタチごっごになるとのことなので、
+取り急ぎアクセスの多いスパムにフィルターを設定しました。</p>
+
+<h2 id="organic-search-">Organic Search では検索キーワードの調査ができない？</h2>
+<p>サマリーの画面で「Organic Search」を押して、
+プライマリディメンションを「キーワード」としても、キーワードが表示されないことが多々あります。</p>
+
+<p><img class="pure-img" src="https://farm2.staticflickr.com/1711/24332650999_b4b4898ce5.jpg" title="Google AnalyticsTop1" alt="Google AnalyticsTop2" /></p>
+
+<p>理由は以下2点。 <br />
+①Googleから検索されたため。(not provided) <br />
+②リファラースパムによる検索のため。   </p>
+
+<p>①については、現状、Googleアナリスティックスだけでは、キーワードの特定は難しい。
+そのためGoogle adsやwebmasterツールを使って、以下記事のように
+キーワードを特定する方法を用いる必要があります。</p>
+
+<h3 id="googlenot-provided--lig">Googleアナリティクスで表示される「not provided」についてと対策方法まとめ | 株式会社LIG</h3>
+<p><a href="http://liginc.co.jp/web/seo/83063">http://liginc.co.jp/web/seo/83063</a></p>
+
+<p>②については、上記「Referralの注意点」に記載したやり方でフィルターをかけて除外をかけていくとノイズがなくなり、見やすくなります。</p>
+
+-->
+    </div>
+  </div>
+  <!-- blog.erbと共有 end -->
+  <!-- blog.erbと共有 start -->
+  <div class="content">
+    <div class="content-head">
       <a href="/blog/2016/01/23/1.html">Google Analyticsにおける基本的な7つの用語</a>
     </div>
     <div class="content-date">
@@ -458,68 +561,6 @@ WordPress アドレス (URL) <br />
     </div>
   </div>
   <!-- blog.erbと共有 end -->
-  <!-- blog.erbと共有 start -->
-  <div class="content">
-    <div class="content-head">
-      <a href="/blog/2015/03/03/1.html">非デザイナーがデザインする時に見た方が良い書籍、webサイト</a>
-    </div>
-    <div class="content-date">
-      <div alt="f303" class="genericon genericon-time" title="genericon-time"></div>
-      <span>2015/03/03 01:05</span>
-    </div>
-    <div class="content-tages">
-      <div alt="f302" class="genericon genericon-tag top-mg" title="genericon-tag"></div>
-            <span class="tag"><a href="/blog/tags/design.html">Design</a></span>
-    </div>
-
-    <div class="content-main">
-      <!-- use article.summary(250) if you have Nokogiri available to show just
-           the first 250 characters -->
-           <p>ポートフォリオサイトとか、ちょっとした趣味webサービスを作りたいなって時に、どうしても見た目に素人臭くなってしまう…</p>
-
-<p>そんな、素人臭を誤魔化すために参考にした、書籍と、サイトをメモってみた。
-メモ程度の情報なので、タイトルは完全に釣りです。
-
-      <!--<p>ポートフォリオサイトとか、ちょっとした趣味webサービスを作りたいなって時に、どうしても見た目に素人臭くなってしまう…</p>
-
-<p>そんな、素人臭を誤魔化すために参考にした、書籍と、サイトをメモってみた。
-メモ程度の情報なので、タイトルは完全に釣りです。
-</p>
-
-<h2 id="section">参考にした書籍</h2>
-
-<p><a href="http://www.amazon.co.jp/gp/product/4839928401/ref=as_li_qf_sp_asin_il?ie=UTF8&amp;camp=247&amp;creative=1211&amp;creativeASIN=4839928401&amp;linkCode=as2&amp;tag=chinohara0a-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;ASIN=4839928401&amp;Format=_SL160_&amp;ID=AsinImage&amp;MarketPlace=JP&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=chinohara0a-22" /></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=chinohara0a-22&amp;l=as2&amp;o=9&amp;a=4839928401" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
-
-<h3 id="section-1">ノンデザイナーズ・デザインブック</h3>
-
-<p>ネットでも、評判の良書。
-webサイトのデザインに限らず、ポスターとか、招待状とか作るときにも活用できるデザインの大原則が纏まっている。</p>
-
-<p>情報の配置の仕方、フォントの種類、色の原則といった、この辺の原則を知っておくと、何かしらデザインをした時に、そのデザインにした理由付けができるようになります。</p>
-
-<p>おしゃれなデザインではなく、見た人にどう感じ取ってもらえるか、使いやすいか、わかりやすかといった利便性を高めるデザインについて、理解が進みます。</p>
-
-<p>僕は電子書籍で購入しました。</p>
-
-<h2 id="web">参考にしたwebサイト</h2>
-
-<h3 id="web--">フラットデザインなWebサイトで使われている色ってどんな色？配色パターン事例・カラーコード付き | 株式会社コプロシステム</h3>
-<p><a href="http://colorschemedesigner.com/">http://colorschemedesigner.com/</a></p>
-
-<p>フラットデザインのwebサイトが纏められている。
-使われているカラーコードも、併せて記載されているため、すぐに自分のサイト等に活用することができる。</p>
-
-<h3 id="color-scheme-designer-3">Color Scheme Designer 3</h3>
-<p><a href="http://colorschemedesigner.com/">http://colorschemedesigner.com/</a></p>
-
-<p>色を一色指定するとその色の補色や、調整色のカラーコードが取得できる。
-ここで取得した色を利用することで、素人臭い色の組み合わせを防ぐことができる。</p>
-
-<p>ほかにも色々見てきましたが、取り急ぎ上記の書籍とサイトにお世話になりました。</p>
--->
-    </div>
-  </div>
-  <!-- blog.erbと共有 end -->
 <div class="pagenate">
     Page 1 of 2
       <a href="/page/2/"><div alt="f501" class="genericon genericon-rightarrow" title="genericon-rightarrow"></div></a>
@@ -552,6 +593,12 @@ webサイトのデザインに限らず、ポスターとか、招待状とか�
                         Recent Articles
                       </div>
                         <div class="resent-date">
+                          <span>2016/01/30 10:49</span>
+                        </div>
+                        <div class="sub-main">
+                          <a href="/blog/2016/01/30/1.html">Google Analyticsで、どのサイトからアクセスしてきた分析する</a>
+                        </div>
+                        <div class="resent-date">
                           <span>2016/01/23 17:52</span>
                         </div>
                         <div class="sub-main">
@@ -575,12 +622,6 @@ webサイトのデザインに限らず、ポスターとか、招待状とか�
                         <div class="sub-main">
                           <a href="/blog/2015/07/26/1.html">heroku向け、Javaアプリのローカル環境構築</a>
                         </div>
-                        <div class="resent-date">
-                          <span>2015/03/13 00:56</span>
-                        </div>
-                        <div class="sub-main">
-                          <a href="/blog/2015/03/13/1.html">ローカルにWordpressを構築してみた</a>
-                        </div>
                     </div>
                     <div class="subarea">
                       <div class="sub-head">
@@ -593,7 +634,7 @@ webサイトのデザインに限らず、ポスターとか、招待状とか�
                           <a href="/blog/tags/sns.html">SNS (1)</a>
                         </div>
                         <div class="sub-main">
-                          <a href="/blog/tags/google-analytics.html">Google Analytics (2)</a>
+                          <a href="/blog/tags/google-analytics.html">Google Analytics (3)</a>
                         </div>
                         <div class="sub-main">
                           <a href="/blog/tags/google-adsense.html">Google Adsense (1)</a>
@@ -625,7 +666,7 @@ webサイトのデザインに限らず、ポスターとか、招待状とか�
                         By Year
                       </div>
                         <div class="sub-main">
-                          <a href="/blog/2016.html">2016 (2)</a>
+                          <a href="/blog/2016.html">2016 (3)</a>
                         </div>
                         <div class="sub-main">
                           <a href="/blog/2015.html">2015 (8)</a>

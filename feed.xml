@@ -5,10 +5,99 @@
   <id>http://blog.url.com/blog</id>
   <link href="http://blog.url.com/blog"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2016-01-23T17:52:00+09:00</updated>
+  <updated>2016-01-30T10:49:00+09:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>Google Analyticsで、どのサイトからアクセスしてきた分析する</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2016/01/30/1.html"/>
+    <id>http://blog.url.com/blog/2016/01/30/1.html</id>
+    <published>2016-01-30T10:49:00+09:00</published>
+    <updated>2016-01-30T13:32:20+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;エンジニアでも、アクセス解析したい！ &lt;br /&gt;
+引き続き、Google Analyticsを使って行きます。
+今回はどんなサイトからアクセスしてきたか？確認していきます。
+&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;基本的な指標の確認&lt;/li&gt;
+  &lt;li&gt;どんな端末、ブラウザからアクセスされたか。&lt;/li&gt;
+  &lt;li&gt;どの地域の人がアクセスしてきたか。&lt;/li&gt;
+  &lt;li&gt;どの年齢層の人がアクセスしてきたか。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;どのサイトからアクセスしてきたか。&lt;/strong&gt;(←本記事はこちら！)&lt;/li&gt;
+  &lt;li&gt;どのキーワードでアクセスしてきたか。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section"&gt;どのサイトからアクセスしてきたか。&lt;/h2&gt;
+&lt;p&gt;「集客」→「サマリー」で表示されるレポートから確認できます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img class="pure-img" src="https://farm2.staticflickr.com/1639/24700316905_1412d8aa9b.jpg" title="Google AnalyticsTop1" alt="Google AnalyticsTop1" /&gt;&lt;/p&gt;
+
+&lt;p&gt;アクセスのされ方は以下4種類に分類されます。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;　Organic Search &lt;br /&gt;
+GoogleやYahooなどから検索キーワードを指定してアクセス&lt;/li&gt;
+  &lt;li&gt;　Social &lt;br /&gt;
+FacebookやTwitterなどのソーシャルメディアからのアクセス&lt;/li&gt;
+  &lt;li&gt;　Referral &lt;br /&gt;
+Social以外のサイトからのアクセス&lt;/li&gt;
+  &lt;li&gt;　Direct &lt;br /&gt;
+直接URLを指定していたり、ブックマークからのアクセス&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;SocialからはどのSNSからのアクセスが多いか。
+Referralでは、どのサイトからリンクが張られているか、記事を紹介されたか。
+Directでは、どの記事がユーザに気に入られているか。
+がそれぞれ判断できます。&lt;/p&gt;
+
+&lt;h2 id="referral"&gt;Referralの注意点&lt;/h2&gt;
+&lt;p&gt;「サマリー」から「Referral」を選択すると以下のような画面が表示される。
+胡散臭いURLがちらほら。。。というかほとんど。(このページのようにアクセスの少ないサイトはこうなります。)
+&lt;img class="pure-img" src="https://farm2.staticflickr.com/1565/24073629333_74458e4c4f.jpg" title="Google AnalyticsTop1" alt="Google AnalyticsTop3" /&gt;&lt;/p&gt;
+
+&lt;p&gt;この胡散臭いURLがリファラースパムです。
+Googleアナリスティックスから、クリックさせることで、海外の通販サイトや、ウイルスを感染させるサイトに
+誘導を狙っています。不用意にクリックしないように。&lt;/p&gt;
+
+&lt;p&gt;このような悪意のあるアクセスが多いと、サイトの分析を正しく行えなくなるため、
+フィルターをかけて除外する必要があります。&lt;/p&gt;
+
+&lt;p&gt;「アナリスティックス設定」→「フィルター」をクリック。
+フィルターの設定例や、リファラースパムの対象については、以下サイトが参考になるので
+それに基づいて設定していけばOKです。&lt;/p&gt;
+
+&lt;h3 id="google--junichi"&gt;リファラースパム対策｜Googleアナリティクスでフィルタ設定をする方法 | ブログマーケッターJUNICHI&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://junichi-manga.com/referral-spam/"&gt;https://junichi-manga.com/referral-spam/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;リファラースパムは大量にあり、どんどん増えていき、イタチごっごになるとのことなので、
+取り急ぎアクセスの多いスパムにフィルターを設定しました。&lt;/p&gt;
+
+&lt;h2 id="organic-search-"&gt;Organic Search では検索キーワードの調査ができない？&lt;/h2&gt;
+&lt;p&gt;サマリーの画面で「Organic Search」を押して、
+プライマリディメンションを「キーワード」としても、キーワードが表示されないことが多々あります。&lt;/p&gt;
+
+&lt;p&gt;&lt;img class="pure-img" src="https://farm2.staticflickr.com/1711/24332650999_b4b4898ce5.jpg" title="Google AnalyticsTop1" alt="Google AnalyticsTop2" /&gt;&lt;/p&gt;
+
+&lt;p&gt;理由は以下2点。 &lt;br /&gt;
+①Googleから検索されたため。(not provided) &lt;br /&gt;
+②リファラースパムによる検索のため。   &lt;/p&gt;
+
+&lt;p&gt;①については、現状、Googleアナリスティックスだけでは、キーワードの特定は難しい。
+そのためGoogle adsやwebmasterツールを使って、以下記事のように
+キーワードを特定する方法を用いる必要があります。&lt;/p&gt;
+
+&lt;h3 id="googlenot-provided--lig"&gt;Googleアナリティクスで表示される「not provided」についてと対策方法まとめ | 株式会社LIG&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://liginc.co.jp/web/seo/83063"&gt;http://liginc.co.jp/web/seo/83063&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;②については、上記「Referralの注意点」に記載したやり方でフィルターをかけて除外をかけていくとノイズがなくなり、見やすくなります。&lt;/p&gt;
+
+</content>
+  </entry>
   <entry>
     <title>Google Analyticsにおける基本的な7つの用語</title>
     <link rel="alternate" href="http://blog.url.com/blog/2016/01/23/1.html"/>
@@ -302,53 +391,6 @@ WordPress アドレス (URL) &lt;br /&gt;
 
 &lt;p&gt;とりあえず、環境構築はここまで。&lt;/p&gt;
 
-</content>
-  </entry>
-  <entry>
-    <title>非デザイナーがデザインする時に見た方が良い書籍、webサイト</title>
-    <link rel="alternate" href="http://blog.url.com/blog/2015/03/03/1.html"/>
-    <id>http://blog.url.com/blog/2015/03/03/1.html</id>
-    <published>2015-03-03T01:05:00+09:00</published>
-    <updated>2015-03-03T01:46:17+09:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;ポートフォリオサイトとか、ちょっとした趣味webサービスを作りたいなって時に、どうしても見た目に素人臭くなってしまう…&lt;/p&gt;
-
-&lt;p&gt;そんな、素人臭を誤魔化すために参考にした、書籍と、サイトをメモってみた。
-メモ程度の情報なので、タイトルは完全に釣りです。
-&lt;/p&gt;
-
-&lt;h2 id="section"&gt;参考にした書籍&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href="http://www.amazon.co.jp/gp/product/4839928401/ref=as_li_qf_sp_asin_il?ie=UTF8&amp;amp;camp=247&amp;amp;creative=1211&amp;amp;creativeASIN=4839928401&amp;amp;linkCode=as2&amp;amp;tag=chinohara0a-22"&gt;&lt;img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;amp;ASIN=4839928401&amp;amp;Format=_SL160_&amp;amp;ID=AsinImage&amp;amp;MarketPlace=JP&amp;amp;ServiceVersion=20070822&amp;amp;WS=1&amp;amp;tag=chinohara0a-22" /&gt;&lt;/a&gt;&lt;img src="http://ir-jp.amazon-adsystem.com/e/ir?t=chinohara0a-22&amp;amp;l=as2&amp;amp;o=9&amp;amp;a=4839928401" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /&gt;&lt;/p&gt;
-
-&lt;h3 id="section-1"&gt;ノンデザイナーズ・デザインブック&lt;/h3&gt;
-
-&lt;p&gt;ネットでも、評判の良書。
-webサイトのデザインに限らず、ポスターとか、招待状とか作るときにも活用できるデザインの大原則が纏まっている。&lt;/p&gt;
-
-&lt;p&gt;情報の配置の仕方、フォントの種類、色の原則といった、この辺の原則を知っておくと、何かしらデザインをした時に、そのデザインにした理由付けができるようになります。&lt;/p&gt;
-
-&lt;p&gt;おしゃれなデザインではなく、見た人にどう感じ取ってもらえるか、使いやすいか、わかりやすかといった利便性を高めるデザインについて、理解が進みます。&lt;/p&gt;
-
-&lt;p&gt;僕は電子書籍で購入しました。&lt;/p&gt;
-
-&lt;h2 id="web"&gt;参考にしたwebサイト&lt;/h2&gt;
-
-&lt;h3 id="web--"&gt;フラットデザインなWebサイトで使われている色ってどんな色？配色パターン事例・カラーコード付き | 株式会社コプロシステム&lt;/h3&gt;
-&lt;p&gt;&lt;a href="http://colorschemedesigner.com/"&gt;http://colorschemedesigner.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;フラットデザインのwebサイトが纏められている。
-使われているカラーコードも、併せて記載されているため、すぐに自分のサイト等に活用することができる。&lt;/p&gt;
-
-&lt;h3 id="color-scheme-designer-3"&gt;Color Scheme Designer 3&lt;/h3&gt;
-&lt;p&gt;&lt;a href="http://colorschemedesigner.com/"&gt;http://colorschemedesigner.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;色を一色指定するとその色の補色や、調整色のカラーコードが取得できる。
-ここで取得した色を利用することで、素人臭い色の組み合わせを防ぐことができる。&lt;/p&gt;
-
-&lt;p&gt;ほかにも色々見てきましたが、取り急ぎ上記の書籍とサイトにお世話になりました。&lt;/p&gt;
 </content>
   </entry>
 </feed>

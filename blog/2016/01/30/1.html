@@ -36,7 +36,7 @@
     <link href="/stylesheets/modules/syntax_highlight.css" rel="stylesheet" type="text/css" media="all" />
     <link href="/stylesheets/app.css" rel="stylesheet" type="text/css" media="all" />
 
-    <title>Chinohara's Page</title>
+    <title>Chinohara's Page - Google Analyticsで、どのサイトからアクセスしてきた分析する</title>
     <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/blog/feed.xml" />
 
     <!-- googleAnalytics start-->
@@ -88,30 +88,110 @@
                   <div class="subtitle-m">Weekend activity log.</div>
                 </div>
                 <div class="pure-u-1 pure-u-sm-2-3">
-                  <div class="year-tags-main">
-  <div class="year-tags-header">Tag is Heroku</div>
+                  
+		<div class="content">
+		    <div class="content-head">
+		      <a href="/blog/2016/01/30/1.html">Google Analyticsで、どのサイトからアクセスしてきた分析する</a>
+		    </div>
+		    <div class="content-date">
+		      <div alt="f303" class="genericon genericon-time" title="genericon-time"></div>
+		      <span>2016/01/30 10:49</span>
+		    </div>
+		    <div class="content-tages">
+		      <div alt="f302" class="genericon genericon-tag top-mg" title="genericon-tag"></div>
+		            <span class="tag"><a href="/blog/tags/google-analytics.html">Google Analytics</a></span>
+		    </div>
 
-  <!---->
+		    <div class="content-main">
+		      <p>エンジニアでも、アクセス解析したい！ <br />
+引き続き、Google Analyticsを使って行きます。
+今回はどんなサイトからアクセスしてきたか？確認していきます。
+</p>
 
-    <div class="year-tags-content">
-      <div class="content-date">
-        <div alt="f303" class="genericon genericon-day" title="genericon-day"></div>
-        <span>2015/07/26</span>
-      </div>
-      <div class="content-tages">
-        <div alt="f302" class="genericon genericon-tag top-mg" title="genericon-tag"></div>
-          <span class="tag"><a href="/blog/tags/github.html">Github</a></span>
-          <span class="tag"><a href="/blog/tags/heroku.html">Heroku</a></span>
-          <span class="tag"><a href="/blog/tags/eclipse.html">Eclipse</a></span>
-      </div>
-      <a href="/blog/2015/07/26/1.html">heroku向け、Javaアプリのローカル環境構築</a>
-    </div>
+<ul>
+  <li>基本的な指標の確認</li>
+  <li>どんな端末、ブラウザからアクセスされたか。</li>
+  <li>どの地域の人がアクセスしてきたか。</li>
+  <li>どの年齢層の人がアクセスしてきたか。</li>
+  <li><strong>どのサイトからアクセスしてきたか。</strong>(←本記事はこちら！)</li>
+  <li>どのキーワードでアクセスしてきたか。</li>
+</ul>
 
-  <!--
-  -->
-  <div class="pagenate">
-  </div>
-</div>
+<h2 id="section">どのサイトからアクセスしてきたか。</h2>
+<p>「集客」→「サマリー」で表示されるレポートから確認できます。</p>
+
+<p><img class="pure-img" src="https://farm2.staticflickr.com/1639/24700316905_1412d8aa9b.jpg" title="Google AnalyticsTop1" alt="Google AnalyticsTop1" /></p>
+
+<p>アクセスのされ方は以下4種類に分類されます。</p>
+
+<ul>
+  <li>　Organic Search <br />
+GoogleやYahooなどから検索キーワードを指定してアクセス</li>
+  <li>　Social <br />
+FacebookやTwitterなどのソーシャルメディアからのアクセス</li>
+  <li>　Referral <br />
+Social以外のサイトからのアクセス</li>
+  <li>　Direct <br />
+直接URLを指定していたり、ブックマークからのアクセス</li>
+</ul>
+
+<p>SocialからはどのSNSからのアクセスが多いか。
+Referralでは、どのサイトからリンクが張られているか、記事を紹介されたか。
+Directでは、どの記事がユーザに気に入られているか。
+がそれぞれ判断できます。</p>
+
+<h2 id="referral">Referralの注意点</h2>
+<p>「サマリー」から「Referral」を選択すると以下のような画面が表示される。
+胡散臭いURLがちらほら。。。というかほとんど。(このページのようにアクセスの少ないサイトはこうなります。)
+<img class="pure-img" src="https://farm2.staticflickr.com/1565/24073629333_74458e4c4f.jpg" title="Google AnalyticsTop1" alt="Google AnalyticsTop3" /></p>
+
+<p>この胡散臭いURLがリファラースパムです。
+Googleアナリスティックスから、クリックさせることで、海外の通販サイトや、ウイルスを感染させるサイトに
+誘導を狙っています。不用意にクリックしないように。</p>
+
+<p>このような悪意のあるアクセスが多いと、サイトの分析を正しく行えなくなるため、
+フィルターをかけて除外する必要があります。</p>
+
+<p>「アナリスティックス設定」→「フィルター」をクリック。
+フィルターの設定例や、リファラースパムの対象については、以下サイトが参考になるので
+それに基づいて設定していけばOKです。</p>
+
+<h3 id="google--junichi">リファラースパム対策｜Googleアナリティクスでフィルタ設定をする方法 | ブログマーケッターJUNICHI</h3>
+<p><a href="https://junichi-manga.com/referral-spam/">https://junichi-manga.com/referral-spam/</a></p>
+
+<p>リファラースパムは大量にあり、どんどん増えていき、イタチごっごになるとのことなので、
+取り急ぎアクセスの多いスパムにフィルターを設定しました。</p>
+
+<h2 id="organic-search-">Organic Search では検索キーワードの調査ができない？</h2>
+<p>サマリーの画面で「Organic Search」を押して、
+プライマリディメンションを「キーワード」としても、キーワードが表示されないことが多々あります。</p>
+
+<p><img class="pure-img" src="https://farm2.staticflickr.com/1711/24332650999_b4b4898ce5.jpg" title="Google AnalyticsTop1" alt="Google AnalyticsTop2" /></p>
+
+<p>理由は以下2点。 <br />
+①Googleから検索されたため。(not provided) <br />
+②リファラースパムによる検索のため。   </p>
+
+<p>①については、現状、Googleアナリスティックスだけでは、キーワードの特定は難しい。
+そのためGoogle adsやwebmasterツールを使って、以下記事のように
+キーワードを特定する方法を用いる必要があります。</p>
+
+<h3 id="googlenot-provided--lig">Googleアナリティクスで表示される「not provided」についてと対策方法まとめ | 株式会社LIG</h3>
+<p><a href="http://liginc.co.jp/web/seo/83063">http://liginc.co.jp/web/seo/83063</a></p>
+
+<p>②については、上記「Referralの注意点」に記載したやり方でフィルターをかけて除外をかけていくとノイズがなくなり、見やすくなります。</p>
+
+
+		    </div>
+		</div>
+	    <!-- SNS Share-->
+	    <div class="shares">
+			<div class="twitter-share-button">
+				<a href="https://twitter.com/share" class="twitter-share-button" data-lang="ja">ツイート</a>
+			</div>
+			<div id="fb-share-button" class="fb-share-button"></div>
+			<div class="end-share-button"></div>
+		</div>
 
                 </div>
                 <div class="sidebar pure-u-1 pure-u-sm-1-3">
@@ -263,3 +343,5 @@
     
   </body>
 </html>
+
+
